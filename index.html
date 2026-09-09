@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>破茧 · 每周一三五，与经典相约</title>
+<meta name="description" content="破茧——名人讲稿、经典名篇、中华诗词，每周一、三、五晚八点更新；读原文，写笔记，每读一篇，都是一次破茧。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+      <defs>
+        <linearGradient id="bw" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#35c4b5"/><stop offset="1" stop-color="#7cc7e8"/>
+        </linearGradient>
+      </defs>
+      <path d="M31 33C22 15 7 10 6.5 24 6.2 34 19 39 29 37.5Z" fill="url(#bw)"/>
+      <path d="M33 33C42 15 57 10 57.5 24 57.8 34 45 39 35 37.5Z" fill="url(#bw)"/>
+      <path d="M31.5 36C25 45 21.5 55 26.5 56.5 30 57.5 32 49 32 43Z" fill="url(#bw)" opacity=".85"/>
+      <path d="M32.5 36C39 45 42.5 55 37.5 56.5 34 57.5 32 49 32 43Z" fill="url(#bw)" opacity=".85"/>
+      <rect x="31.1" y="30" width="1.8" height="24" rx=".9" fill="#0b5e8c"/>
+      <path d="M31 30c-2-3-4-4-6-5M33 30c2-3 4-4 6-5" stroke="#0b5e8c" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="brand-name">破茧</span>
+    <span class="brand-slogan">读经典 · 写笔记 · 破茧成蝶</span>
+  </a>
+  <nav class="topnav">
+    <a href="#speeches">名人讲稿</a>
+    <a href="#classics">经典名篇</a>
+    <a href="#poetry">中华诗词</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">BREAKING THE COCOON</div>
+    <h1 class="hero-title">破茧</h1>
+    <p class="hero-sub">每周一 · 三 · 五 晚八点，与经典相约</p>
+    <p class="hero-desc">名人讲稿、经典名篇、中华诗词，三个栏目各更新一篇。<br>读原文，写笔记——每读一篇，都是一次破茧。</p>
+    <div class="hero-countdown" id="heroCountdown">正在计算下次更新时间……</div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,48 C240,88 480,8 720,32 C960,56 1200,72 1440,36 L1440,90 L0,90 Z" fill="#f2f8fa"/>
+  </svg>
+</section>
+
+<main class="home-main" id="homeMain">
+  <!-- 三个栏目区块由 js/home.js 渲染 -->
+</main>
+
+<footer class="site-foot">
+  <p>破茧 · 学习网站 ｜ 每周一、三、五 20:00 更新，每栏目一篇</p>
+  <p class="foot-note">阅读笔记保存在你的浏览器本地（localStorage），仅自己可见，可随时导出。</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="fUtWeqfNca8wOTLU4ofrHs">
+<head data-page-node-id="hDFBTJf1keDW2zCZGu3WdP">
+<meta charset="UTF-8" data-page-node-id="vtOBsRFfOsQ1vXZAhIvXeq">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="k79gExlbBcLWPUETIlkNwc">
+<title>葛底斯堡演说 · Abraham Lincoln</title>
+<style>
+  :root{
+    --ink:#1a2238;
+    --ink-soft:#3b4763;
+    --paper:#f6f1e7;
+    --paper-deep:#ece3cf;
+    --gold:#a87c3a;
+    --gold-soft:#c89b56;
+    --navy:#0f2547;
+    --rule:#c8b890;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+    color:var(--ink);
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #efe7d3 0%, transparent 60%),
+      linear-gradient(180deg,#f8f3e6 0%, #f1ead7 100%);
+    line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{max-width:880px;margin:0 auto;padding:64px 28px 96px}
+  .eyebrow{
+    text-align:center;
+    letter-spacing:.42em;
+    font-size:12px;
+    color:var(--gold);
+    text-transform:uppercase;
+    margin-bottom:18px;
+  }
+  h1.title{
+    font-family:Georgia,"Times New Roman",serif;
+    text-align:center;
+    font-size:54px;
+    line-height:1.15;
+    margin:0 0 10px;
+    color:var(--navy);
+    letter-spacing:.5px;
+  }
+  .subtitle{
+    text-align:center;
+    font-size:18px;
+    color:var(--ink-soft);
+    font-style:italic;
+    margin:0 0 8px;
+  }
+  .meta{
+    text-align:center;
+    font-size:13px;
+    color:var(--ink-soft);
+    letter-spacing:.18em;
+    margin:0 0 36px;
+    text-transform:uppercase;
+  }
+  .divider{
+    height:1px;
+    background:linear-gradient(90deg,transparent,var(--rule) 20%,var(--rule) 80%,transparent);
+    margin:36px auto;
+    width:60%;
+  }
+  section{margin:0 0 28px}
+  h2{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:22px;
+    color:var(--navy);
+    border-left:4px solid var(--gold);
+    padding-left:14px;
+    margin:0 0 18px;
+    letter-spacing:.04em;
+  }
+  .card{
+    background:rgba(255,255,255,.55);
+    border:1px solid rgba(168,124,58,.25);
+    border-radius:6px;
+    padding:24px 28px;
+    box-shadow:0 1px 0 rgba(255,255,255,.6) inset, 0 10px 30px rgba(15,37,71,.05);
+  }
+  .speaker{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:24px;
+    align-items:start;
+  }
+  .portrait{
+    width:100%;
+    aspect-ratio:1/1;
+    background:linear-gradient(135deg,#2b3a66,#0f2547);
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#d8c89a;
+    font-family:Georgia,serif;
+    font-size:80px;
+    letter-spacing:.05em;
+    border:1px solid rgba(200,184,144,.4);
+  }
+  .speaker h3{
+    font-family:Georgia,serif;
+    font-size:24px;
+    margin:0 0 4px;
+    color:var(--navy);
+  }
+  .speaker .role{
+    color:var(--gold);
+    font-size:13px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    margin-bottom:14px;
+  }
+  .speaker p{margin:0 0 10px;font-size:15.5px}
+  .quickfacts{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:14px;
+    margin-top:20px;
+  }
+  .qf{
+    border-top:1px solid var(--rule);
+    padding-top:10px;
+  }
+  .qf .k{font-size:11px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+  .qf .v{font-size:15px;color:var(--ink);margin-top:2px}
+
+  .bg-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+  }
+  .bg-grid .card{padding:18px 22px}
+  .bg-grid h4{
+    font-family:Georgia,serif;
+    margin:0 0 8px;
+    color:var(--navy);
+    font-size:16px;
+  }
+  .bg-grid p{margin:0;font-size:14.5px;color:var(--ink-soft)}
+
+  .speech{
+    background:
+      linear-gradient(180deg, #fbf7ea 0%, #f4ecd6 100%);
+    border:1px solid rgba(168,124,58,.3);
+    border-radius:6px;
+    padding:36px 44px;
+    position:relative;
+  }
+  .speech::before, .speech::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width:60px;
+    height:1px;
+    background:var(--rule);
+  }
+  .speech::before{top:14px}
+  .speech::after{bottom:14px}
+  .speech-lang{
+    display:flex;
+    justify-content:center;
+    gap:0;
+    margin:-18px 0 22px;
+    background:rgba(255,255,255,.6);
+    border:1px solid rgba(168,124,58,.3);
+    border-radius:999px;
+    padding:4px;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .lang-btn{
+    border:0;background:transparent;
+    font:inherit;color:var(--ink-soft);
+    padding:6px 18px;border-radius:999px;
+    cursor:pointer;font-size:13px;letter-spacing:.1em;
+  }
+  .lang-btn.active{background:var(--navy);color:#f5ecd6}
+
+  .speech-body{display:none}
+  .speech-body.active{display:block}
+  .speech-body p{
+    margin:0 0 16px;
+    font-size:17px;
+    line-height:2;
+    text-align:justify;
+  }
+  .speech-en p{font-family:Georgia,"Times New Roman",serif;color:var(--ink)}
+  .speech-cn p{color:var(--ink)}
+  .speech-cn .sep{
+    display:block;text-align:center;color:var(--gold);margin:8px 0 16px;font-size:18px
+  }
+  .speech-body .signoff{
+    font-style:italic;
+    text-align:right;
+    margin-top:28px;
+    color:var(--ink-soft);
+    font-size:14px;
+    letter-spacing:.08em;
+  }
+  .speech-body .signoff .name{
+    display:block;
+    font-style:normal;
+    font-family:Georgia,serif;
+    font-size:20px;
+    color:var(--navy);
+    margin-top:6px;
+    letter-spacing:.04em;
+  }
+
+  .highlights{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px
+  }
+  .hl{
+    border:1px solid rgba(168,124,58,.25);
+    border-radius:6px;
+    padding:18px;
+    background:rgba(255,255,255,.5);
+  }
+  .hl .quote{
+    font-family:Georgia,serif;
+    font-size:17px;
+    color:var(--navy);
+    line-height:1.5;
+    margin:0 0 8px;
+  }
+  .hl .note{
+    font-size:12.5px;color:var(--ink-soft);line-height:1.6;margin:0
+  }
+
+  footer{
+    text-align:center;
+    color:var(--ink-soft);
+    font-size:12px;
+    letter-spacing:.16em;
+    margin-top:48px;
+    text-transform:uppercase;
+  }
+  footer .src{text-transform:none;letter-spacing:0;font-style:italic;margin-top:6px;color:var(--gold)}
+
+  @media (max-width:720px){
+    h1.title{font-size:36px}
+    .speaker{grid-template-columns:1fr}
+    .quickfacts{grid-template-columns:1fr}
+    .bg-grid{grid-template-columns:1fr}
+    .highlights{grid-template-columns:1fr}
+    .speech{padding:24px 22px}
+  }
+</style>
+</head>
+<body data-page-node-id="zWKpBd2w2DpPembPv5iTuh">
+<div class="page" data-page-node-id="1D9q7VCvnZRQb0IZa8SBdE">
+
+  <div class="eyebrow" data-page-node-id="NVKUvI8oOsQVxsoTKYhZZH">A Speech for the Ages</div>
+  <h1 class="title" data-page-node-id="3xMocNB9AGfioIzG3sweDF">葛底斯堡演说</h1>
+  <div class="subtitle" data-page-node-id="GtCq7cWXFNRHA3EPd6plBT">The Gettysburg Address</div>
+  <div class="meta" data-page-node-id="XuXB6ELiiFeElPZlJeBwfv">Pennsylvania · November 19, 1863 · ~ 2 minutes</div>
+
+  <div class="divider" data-page-node-id="hRCokXQMEFFkIcEzBi5jgc"></div>
+
+  <!-- 演讲人简介 -->
+  <section data-page-node-id="5p1u2YWEYvk50EZrgvhoOn">
+    <h2 data-page-node-id="e6gNCxkuMTVZ2PKxjsBqFq">演讲人 · Abraham Lincoln</h2>
+    <div class="card speaker" data-page-node-id="cpuQnva66sDdoTdH1FNdiE">
+      <div class="portrait" data-page-node-id="FCUQza52OaF3bixbZyB8G3">A·L</div>
+      <div data-page-node-id="ZHB5rDwHb4COGG13GyXkw8">
+        <h3 data-page-node-id="jD0UVggYqBRHUCbDcBNfF4">亚伯拉罕·林肯</h3>
+        <div class="role" data-page-node-id="M9810F1ITBMUiWyiB54VLu">Abraham Lincoln · 1809 — 1865</div>
+        <p data-page-node-id="fKhOoh8coGYdCU8CKNBLNX">美国第十六任总统（1861—1865），出身肯塔基州拓荒者家庭，几乎靠自学成才，律师出身，共和党人。任内领导国家度过南北战争最艰难的时期，颁布《解放黑人奴隶宣言》，维护联邦统一。</p>
+        <p data-page-node-id="peJXVdp4ftQGkDykjZawU3">他以简洁、庄重、近乎诗化的英文著称，被广泛认为是美国历史上最伟大的演说家之一。1865年4月14日，在内战胜利即将到来之际，于福特剧院遇刺身亡。</p>
+        <div class="quickfacts" data-page-node-id="p6e2x9pAU64F26DE82LgtI">
+          <div class="qf" data-page-node-id="rGDB1ePSAHTudJUxBGKwsI"><div class="k" data-page-node-id="K34tut3b3a82OhM9AjqgCK">出生</div><div class="v" data-page-node-id="NNYQM2CqmK3EVdd8I3aRE7">1809年2月12日 · 肯塔基州</div></div>
+          <div class="qf" data-page-node-id="baruWtKfDNDaV8YHX5iVYB"><div class="k" data-page-node-id="tIJeVc8x6qpnhvdF0Fe351">任期</div><div class="v" data-page-node-id="39iEaKnkd6Q7kyKdVLhLOH">第16任总统</div></div>
+          <div class="qf" data-page-node-id="s7xLxx1JCqjjw7D9jqTJJy"><div class="k" data-page-node-id="DkuBYo2QJa4FKQohldKr8I">辞世</div><div class="v" data-page-node-id="f6IAGCUPrU6WLpCIn0xCCH">1865年4月15日</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 讲话背景 -->
+  <section data-page-node-id="SwvjSPqz1oHBMAxXa7LVVI">
+    <h2 data-page-node-id="aLrMV5xfSLJYjEKmKcmHWu">讲话背景 · The Setting</h2>
+    <div class="bg-grid" data-page-node-id="a0xL2wawNmZFLrT1dlsoRh">
+      <div class="card" data-page-node-id="u25I2vWNQaS2Yfmgm8oyRE">
+        <h4 data-page-node-id="FmPfUJbAvMrLH5Feq2KCQu">一座战场 · 一座新坟</h4>
+        <p data-page-node-id="LlsT8xeahw8NvQaT7S909H">1863年7月1—3日，南北双方在宾夕法尼亚州葛底斯堡激战三日，双方伤亡逾五万人，是整场内战最惨烈的战役之一。战役结束后数月，宾州当局将战场南缘划为国家公墓，安葬阵亡将士。</p>
+      </div>
+      <div class="card" data-page-node-id="5zhgE7wsJLtMcFveMyM5TT">
+        <h4 data-page-node-id="UQueOAGz5FOjBqh1uLfW0c">1863年11月19日</h4>
+        <p data-page-node-id="cty7SbtOb6FswgJWjpNlcI">公墓揭幕典礼举行。当日主演讲人为前国务卿 Edward Everett，他讲了足足两小时。林肯作为总统受邀致"献辞"，依其本人意愿只作"几句收尾的话"，整篇演说历时约两分钟便告结束。</p>
+      </div>
+      <div class="card" data-page-node-id="CjywuZpbD4MSgCyt8utryw">
+        <h4 data-page-node-id="PkBiuQGydSNjVpHk42nsMi">一场关于"新生"的演说</h4>
+        <p data-page-node-id="JzUaOZ705V11TNwy57EQLB">林肯并未渲染战场惨烈，而是将悼念升华为对国家理想的再确认：自由、平等、宪政之下的"民有、民治、民享"之政府，能否延续而不致消亡。</p>
+      </div>
+      <div class="card" data-page-node-id="VPGaBjobJL7XELAGDyCInH">
+        <h4 data-page-node-id="G4i6ncZwLWrxHViw9UgzAI">两分钟 vs 两小时</h4>
+        <p data-page-node-id="8gD7m3Mlp5CjFmCPUjHaGF">次日，Edward Everett 致信林肯："您在两分钟内所达之意，我费两小时亦未能及。" 林肯谦逊回信，称自己"不过是依着即兴发挥讲了几句罢了"。这一组对比，成为演说史上的经典佳话。</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" data-page-node-id="PfT38WjFKufcHJjZqfvHcp"></div>
+
+  <!-- 演讲正文 -->
+  <section data-page-node-id="hWtSE7u7c9pn3A5uOrTwxo">
+    <h2 data-page-node-id="nbxlsnxRAIsSzJ2FDgycd6">演讲全文 · The Speech</h2>
+    <div class="speech-lang" data-page-node-id="kvOj3SdgUK9riZmKVwWFG2">
+      <button class="lang-btn active" data-lang="en" data-page-node-id="4q1OHfetAiHUAkekZgT5QR">English Original</button>
+      <button class="lang-btn" data-lang="cn" data-page-node-id="kjS8cdu38xwBOeEArGOW5r">中文译文</button>
+    </div>
+
+    <div class="speech" data-page-node-id="leHKoWV3BVBK0wONOLDJnK">
+      <!-- 英文原文 -->
+      <div class="speech-body speech-en active" data-page-node-id="C8qCx42Ab9MbUu0qzAbGtq">
+        <p data-page-node-id="zHiqgZAEdOeNELjcKyuuHm">Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.</p>
+        <p data-page-node-id="T88oP1yyHrm9tgGIfBZ6lY">Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field as a final resting-place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.</p>
+        <p data-page-node-id="cCJBx667woADy54QToRey8">But, in a larger sense, we can not dedicate — we can not consecrate — we can not hallow — this ground. The brave men, living and dead, who struggled here, have consecrated it far above our poor power to add or detract. The world will little note nor long remember what we say here, but it can never forget what they did here. It is for us, the living, rather to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.</p>
+        <p data-page-node-id="Ls0GOB200QJDP2ozj5jthG">It is rather for us to be here dedicated to the great task remaining before us — that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion; that we here highly resolve that these dead shall not have died in vain; that this nation, under God, shall have a new birth of freedom; and that government of the people, by the people, for the people, shall not perish from the earth.</p>
+        <div class="signoff" data-page-node-id="3akVQQOMomwYCiAsCpYoGM">
+          Delivered at the dedication of the Soldiers' National Cemetery,
+          <span class="name" data-page-node-id="VFpkCQJYkWSeIybiwgbpFw">Abraham Lincoln</span>
+          Gettysburg, Pennsylvania · November 19, 1863
+        </div>
+      </div>
+
+      <!-- 中文译文 -->
+      <div class="speech-body speech-cn" data-page-node-id="6fDID41LLDgYCqXObN8bDC">
+        <p data-page-node-id="4ktcpuxCCTyWDvnAGXc5nN">八十七年前，我们的先辈在这块大陆上创立了一个新国家，孕育于自由之中，奉行人人生而平等之信念。</p>
+        <span class="sep" data-page-node-id="1AGPiMKfHYl5qkNTNNErIs">· · ·</span>
+        <p data-page-node-id="v9rUONC1wsUgB79rFO88eK">如今我们正从事一场伟大的内战，以考验这个国家——或任何一个如此诞生、如此奉献的国家——能否长久存续。我们正聚集在这场战争的一处巨大战场上，来将其中的一部分辟为最后安息之地，以安放那些曾为国捐躯者的英灵。从道义上讲，我们理应做此事。</p>
+        <span class="sep" data-page-node-id="5K3kHWkqRvfgxCEpEkmAMd">· · ·</span>
+        <p data-page-node-id="ESFxgJjVwLqTHbiUfL7iMk">然而，从更广的意义上说，我们无法奉献——我们无法圣化——我们无法神化——这片土地。那些曾在这里战斗过的勇士，无论存殁，已将之圣化，远非我们微薄之力所能增减。世人对我们在此所言或许鲜少留意，亦难长久铭记，但他们在此所做之事，将永不被遗忘。我们这些活着的人，更当在此奉献于他们至此未竟之大业。</p>
+        <span class="sep" data-page-node-id="00d3WLXL9LHv9MBzExlPx8">· · ·</span>
+        <p data-page-node-id="lvp7GBY9iE8FLdHNVFmsuI">我们更当在此奉献于摆在我们面前的伟大事业——承蒙这些光荣牺牲者的厚赐，我们当更加忠于他们为之奉献一生的事业；我们在此庄严立志：这些亡者绝不徒然捐躯；这个国家，在上帝庇佑下，必将获得自由的新生；而民有、民治、民享之政府，必不致消亡于大地之上。</p>
+        <div class="signoff" data-page-node-id="bi7itTWQCgSvKK7ldkLCQy">
+          演讲于"国家士兵公墓"揭幕典礼，
+          <span class="name" data-page-node-id="Aj2stwgkKlSHbEZ5KdDJnF">亚伯拉罕·林肯</span>
+          宾夕法尼亚 · 葛底斯堡 · 1863年11月19日
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主题精髓 -->
+  <section data-page-node-id="o3ymO3TCTd8ric0JE7JUCu">
+    <h2 data-page-node-id="1JdKD2tROnADy23pBY0CV8">演讲精髓 · Why It Endures</h2>
+    <div class="highlights" data-page-node-id="ownAmgrlq2AOtgXnsQzGPo">
+      <div class="hl" data-page-node-id="2eBXxzarGnr0NuuTHVghoL">
+        <p class="quote" data-page-node-id="2Z41X3jHNF2Sdy7BW3D0qN">"Four score and seven years ago…"</p>
+        <p class="note" data-page-node-id="mrBbFIZAaXm4IPf4CzQSNW">以《圣经·诗篇》"人生七十"的尺度反向度量国家的年龄，将历史拉入神话般的庄严时空。</p>
+      </div>
+      <div class="hl" data-page-node-id="VNS5kLrKBfwWWv185ZkUCv">
+        <p class="quote" data-page-node-id="7F0gqDGlA4dIBcbWion6v4">"…a new birth of freedom."</p>
+        <p class="note" data-page-node-id="ByE5AmQ3nkjvKwRSXExdgZ">把战死者的牺牲转化为对未来的承诺：自由的"再次诞生"，内战的死亡不是终点，而是新国家精神的起点。</p>
+      </div>
+      <div class="hl" data-page-node-id="eeVXhEi7FQsodfz5mRtn7p">
+        <p class="quote" data-page-node-id="stfirpw8hQ1WEInQtEs9UN">"…of the people, by the people, for the people."</p>
+        <p class="note" data-page-node-id="QD52b8Vc90vA5kRYLDI6Ml">"民有、民治、民享"——三个介词层层递进，把抽象的政治哲学凝缩为一句能被记住百年的格言。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer data-page-node-id="fKOmcmMuJ2DdFxFMYTaRlO">
+    名人演讲 · 第 001 期
+    <div class="src" data-page-node-id="beZf3RRTIAEjEmtcKhKL7U">Speech text: Bliss Copy (Lincoln Memorial inscription), public domain. Historical notes: abrahamlincolnonline.org</div>
+  </footer>
+</div>
+
+<script>
+  document.querySelectorAll('.lang-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const lang=btn.dataset.lang;
+      document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.speech-body').forEach(b=>b.classList.remove('active'));
+      document.querySelector('.speech-'+lang).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
