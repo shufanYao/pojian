@@ -21,6 +21,18 @@ npx serve .
 
 访问 `http://localhost:8080`。
 
+## 在线访问
+
+通过 GitHub Pages 发布，仓库为项目站点（Project Site），站点地址：
+
+```
+https://shufanyao.github.io/pojian/
+```
+
+发布源：`main` 分支根目录（`/`）。根目录的 `.nojekyll` 用于跳过 Jekyll 构建，按静态文件原样发布。
+
+> 注意：仓库是 Private 时，GitHub Free 账户不支持开启 Pages；需把仓库改为 Public，或升级到 GitHub Pro。
+
 ## 目录结构
 
 ```
@@ -41,7 +53,7 @@ npx serve .
 ```js
 {
   id: 'unique-id',            // 唯一标识
-  cat: 'speeches',            // speeches / classics / poems
+  cat: 'speeches',            // speeches / classics / poetry
   title: '文章标题',
   author: '作者', authorShort: '作者',
   authorInitial: 'L',         // 可选。中文作者省略（取 authorShort 首字）；外文作者必填，取姓氏拉丁首字母
