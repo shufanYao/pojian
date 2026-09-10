@@ -1,6 +1,6 @@
 # 破茧
 
-一个极简的学习类网站：**名人讲稿 / 经典名篇 / 中华诗词** 三个栏目，每周一、三、五晚上 8 点各更新一篇。
+一个极简的学习类网站：**名人讲稿 / 经典名篇 / 中华诗词** 三个栏目。每周一、三、五晚上 8 点更新**一篇**，三个栏目轮番登场。
 
 ## 特性
 
@@ -43,11 +43,14 @@ npx serve .
   id: 'unique-id',            // 唯一标识
   cat: 'speeches',            // speeches / classics / poems
   title: '文章标题',
-  author: '作者', authorShort: '作者', authorRole: '身份', era: '年代',
+  author: '作者', authorShort: '作者',
+  authorInitial: 'L',         // 可选。中文作者省略（取 authorShort 首字）；外文作者必填，取姓氏拉丁首字母
+  authorRole: '身份', era: '年代',
   excerpt: '主页卡片摘要',
   authorIntro: '作者简介',
   facts: ['速览事实1', '速览事实2'],
   background: '创作背景',
+  caveat: ['考据说明（可选）'],  // 作者佚名、归属存疑、年代难考时必填；页面在「创作背景」下方单独成块
   original: '原文（中文≤800字，外文≤400词）',
   translation: '译文（外文/古文）',
   lang: 'zh',                 // zh / en / fr ...

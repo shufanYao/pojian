@@ -52,6 +52,11 @@
   const origLabel = a.originalLabel || (a.lang === 'en' ? '英文原文' : a.lang === 'fr' ? '法文原文' : '原文');
   const transLabel = a.translationLabel || (a.lang === 'zh' ? '白话译文' : '中文译文');
 
+  // 作者卡头像字符：中文作者取姓名首字；外文作者必须由 authorInitial 指定拉丁字母
+  // （西文人名的汉字只是音译，取首字会得出"林肯→林""戴高乐→戴"这类并不存在的姓氏）
+  const authorInitial = a.authorInitial || a.authorShort[0];
+  const isLatinInitial = /^[A-Za-z]$/.test(authorInitial);
+
   function renderBody(text, type) {
     const parts = text.trim().split(/\n\s*\n/);
     if (type === 'verse') {
@@ -86,7 +91,7 @@
     <section class="a-sec">
       <h2>作者简介</h2>
       <div class="author-card">
-        <div class="author-avatar">${escapeHtml(a.authorShort[0])}</div>
+        <div class="author-avatar${isLatinInitial ? ' latin' : ''}">${escapeHtml(authorInitial)}</div>
         <div>
           <h3>${escapeHtml(a.authorShort)}</h3>
           <div class="author-role">${escapeHtml(a.authorRole)}</div>
@@ -104,6 +109,14 @@
         ${a.background.map(c => `<div class="bg-card"><h4>${escapeHtml(c.h)}</h4><p>${escapeHtml(c.p)}</p></div>`).join('')}
       </div>
     </section>
+
+    ${(a.caveat && a.caveat.length) ? `
+    <section class="a-sec">
+      <h2>考据说明</h2>
+      <div class="caveat">
+        ${a.caveat.map(t => `<p>${escapeHtml(t)}</p>`).join('')}
+      </div>
+    </section>` : ''}
 
     <section class="a-sec">
       <h2>${hasTrans ? '原文与译文' : '原文'}</h2>

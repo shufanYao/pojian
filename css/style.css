@@ -173,6 +173,19 @@ body.note-mode .note-toggle{background:#fff;color:var(--cat)}
   background-image:linear-gradient(135deg,rgba(255,255,255,.25),rgba(0,0,0,.18));
   background-color:var(--cat);
 }
+/* 外文作者头像用拉丁字母：字形比汉字窄小，放大字号以求视觉等重 */
+.author-avatar.latin{
+  font-family:Georgia,"Times New Roman",var(--serif);
+  font-size:54px;line-height:1;
+}
+/* 考据说明：作者/年代/背景存在不确定性的篇目，如实交代存疑之处 */
+.caveat{
+  background:var(--card);border:1px solid var(--line);border-left:3px solid var(--sand);
+  border-radius:8px;padding:16px 20px;box-shadow:var(--shadow);
+}
+.caveat p{margin:0 0 9px;font-size:14px;line-height:1.85;color:var(--ink-soft)}
+.caveat p:last-child{margin-bottom:0}
+.caveat p::before{content:"·";color:var(--sand);font-weight:700;margin-right:9px}
 .author-card h3{font-family:var(--serif);font-size:22px;margin:0 0 3px;color:var(--deep)}
 .author-role{font-size:12.5px;color:var(--cat);letter-spacing:.1em;margin-bottom:10px}
 .author-card p{margin:0 0 8px;font-size:14.5px;color:var(--ink-soft)}
@@ -357,6 +370,8 @@ body.note-mode .notes-panel{
   .a-head h1{font-size:31px}
   .author-card{grid-template-columns:1fr}
   .author-avatar{width:72px;height:72px;font-size:32px}
+  .author-avatar.latin{font-size:41px}
+  .caveat{padding:14px 16px}
   .bg-grid{grid-template-columns:1fr}
   .text-box{padding:24px 20px}
   .a-nav{flex-direction:column}
