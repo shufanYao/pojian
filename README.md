@@ -63,10 +63,10 @@ https://shufanyao.github.io/pojian/
   facts: ['速览事实1', '速览事实2'],
   background: '创作背景',
   caveat: ['考据说明（可选）'],  // 作者佚名、归属存疑、年代难考时必填；页面在「创作背景」下方单独成块
-  original: '原文（中文≤800字，外文≤400词）',
+  original: '原文（中文≤2000字，外文≤1000词）',
   translation: '译文（外文/古文）',
   lang: 'zh',                 // zh / en / fr ...
-  type: 'prose',              // prose / poem / speech
+  type: 'prose',              // prose / verse
   publishAt: '2026-09-11T20:00:00+08:00',
 }
 ```

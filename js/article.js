@@ -210,12 +210,169 @@
     quote: () => document.execCommand('formatBlock', false, '<blockquote>'),
     ul: () => document.execCommand('insertUnorderedList'),
     ol: () => document.execCommand('insertOrderedList'),
-    clear: () => document.execCommand('removeFormat'),
+    clear: () => clearFormatting(),
     link: () => {
       const url = prompt('请输入链接 URL：', 'https://');
       if (url) document.execCommand('createLink', false, url);
     }
   };
+
+  /* ---------- 清除格式：行内 + 块级 ----------
+   * 注意：execCommand('removeFormat') 只清得掉行内格式（加粗/斜体/下划线/链接），
+   * 对 formatBlock 产生的块级格式（小标题 h1-h6、引用块 blockquote、代码块 pre）
+   * 和列表（ul/ol）无效——这正是"设成小标题或引用块后清不掉"的原因。
+   * 这里在行内格式之外，把命中的块级元素一并还原成普通段落。 */
+  const BLOCK_TAGS = 'h1,h2,h3,h4,h5,h6,blockquote,pre,div';
+  const NESTED_BLOCK = 'p,ul,ol,li,div,blockquote,pre,h1,h2,h3,h4,h5,h6';
+
+  function hasBlockInside(el) { return !!el.querySelector(NESTED_BLOCK); }
+  function depth(el) { let d = 0; for (let n = el.parentNode; n && n !== editor; n = n.parentNode) d++; return d; }
+
+  /* 元素内容按 <br> 拆成若干普通段落（Chromium 把多段合并成标题时用 <br> 连接，这里还原） */
+  function splitIntoParagraphs(el) {
+    const out = [];
+    let p = document.createElement('p');
+    while (el.firstChild) {
+      const node = el.firstChild;
+      if (node.nodeType === 1 && node.tagName === 'BR') { node.remove(); out.push(p); p = document.createElement('p'); }
+      else p.appendChild(node);
+    }
+    out.push(p);
+    while (out.length > 1 && !out[out.length - 1].firstChild) out.pop();  // 去掉尾部空段
+    return out;
+  }
+
+  /* 把 el 的内容取成一组可放在块级语境里的节点：
+   * 已是块级结构 → 块级子节点原样取出，散落的行内内容另包成段落；
+   * 纯行内内容 → 按 <br> 拆成段落。
+   * 两种分支都会把 el 掏空，节点交给调用方插入。 */
+  function contentToBlocks(el) {
+    if (!hasBlockInside(el)) return splitIntoParagraphs(el);
+    const out = [];
+    let p = null;
+    const flush = () => { if (p && p.firstChild) out.push(p); p = null; };
+    while (el.firstChild) {
+      const node = el.firstChild;
+      if (node.nodeType === 1 && (node.tagName === 'BR' || node.matches(NESTED_BLOCK))) {
+        el.removeChild(node);
+        if (node.tagName === 'BR') { flush(); continue; }
+        flush();
+        out.push(node);
+      } else {
+        if (!p) p = document.createElement('p');
+        p.appendChild(node);
+      }
+    }
+    flush();
+    return out;
+  }
+
+  /* 块级元素 → 普通段落（或脱去外壳保留内部结构）；返回新节点数组，供光标复位 */
+  function normalizeBlock(el) {
+    const blocks = contentToBlocks(el);
+    const frag = document.createDocumentFragment();
+    blocks.forEach(n => frag.appendChild(n));
+    el.replaceWith(frag);
+    return blocks;
+  }
+
+  function collapseAt(node, offset) {
+    const r = document.createRange();
+    r.setStart(node, offset);
+    r.collapse(true);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(r);
+  }
+  function offsetIn(el, range) {
+    if (!el.contains(range.startContainer)) return -1;
+    const r = document.createRange();
+    r.selectNodeContents(el);
+    r.setEnd(range.startContainer, range.startOffset);
+    return r.toString().length;
+  }
+  function setCaretByOffset(el, offset) {
+    let acc = 0;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      const len = node.nodeValue.length;
+      if (acc + len >= offset) { collapseAt(node, Math.max(0, Math.min(len, offset - acc))); return; }
+      acc += len;
+    }
+    const r = document.createRange();
+    r.selectNodeContents(el);
+    r.collapse(false);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(r);
+  }
+
+  function clearFormatting() {
+    const sel = window.getSelection();
+    if (!sel || !sel.rangeCount) return;
+    const range = sel.getRangeAt(0);
+    const wasCollapsed = range.collapsed;
+
+    /* ① 行内格式：加粗 / 斜体 / 下划线 / 链接 / 内联样式 */
+    document.execCommand('removeFormat');
+
+    /* ② 记下光标所在的块，清除后复位 */
+    const caretBlock = (() => {
+      let n = range.startContainer;
+      if (n && n.nodeType !== 1) n = n.parentNode;
+      while (n && n !== editor && !n.matches(BLOCK_TAGS + ',li')) n = n.parentNode;
+      return n && n !== editor ? n : null;
+    })();
+    const caretOffset = caretBlock ? offsetIn(caretBlock, range) : -1;
+
+    const replaced = new Map();   // 原块 → 还原后的首个段落（供光标复位用）
+    let lastMade = null;
+
+    /* ③ 列表：命中的 ul/ol 整段拆成普通段落（由内向外，先处理嵌套的内层列表） */
+    [...editor.querySelectorAll('ul,ol')].filter(el => {
+      try { return range.intersectsNode(el); } catch (e) { return false; }
+    }).sort((a, b) => depth(b) - depth(a)).forEach(list => {
+      if (!list.isConnected) return;
+      const host = list.parentNode;   // Chromium 的 insertUnorderedList 可能把列表塞进 <p> 里
+      const frag = document.createDocumentFragment();
+      [...list.children].forEach(li => {
+        if (li.tagName !== 'LI') return;
+        const tmp = document.createElement('div');
+        while (li.firstChild) tmp.appendChild(li.firstChild);
+        const blocks = contentToBlocks(tmp);
+        blocks.forEach(n => frag.appendChild(n));
+        replaced.set(li, blocks[0] || null);
+        if (blocks.length) lastMade = blocks[blocks.length - 1];
+      });
+      list.replaceWith(frag);
+      // 脱掉包裹列表的非法外壳（<p><ul>…</ul></p>），否则会留下 p 套 p
+      if (host && host.nodeName === 'P') {
+        const made = normalizeBlock(host);
+        replaced.set(host, made[0] || null);
+        if (made.length) lastMade = made[made.length - 1];
+      }
+    });
+
+    /* ④ 块级格式：小标题 / 引用块 / 代码块 → 普通段落（由内向外，先深后浅） */
+    [...editor.querySelectorAll(BLOCK_TAGS)].filter(el => {
+      try { return range.intersectsNode(el); } catch (e) { return false; }
+    }).sort((x, y) => depth(y) - depth(x)).forEach(el => {
+      if (!el.isConnected) return;
+      const made = normalizeBlock(el);
+      replaced.set(el, made[0] || null);
+      if (made.length) lastMade = made[made.length - 1];
+    });
+
+    /* ⑤ 光标复位：折叠光标回到原处，否则落到最后一个受影响块的末尾 */
+    editor.focus();
+    const target = caretBlock ? (caretBlock.isConnected ? caretBlock : replaced.get(caretBlock)) : null;
+    if (wasCollapsed && target) setCaretByOffset(target, Math.max(0, caretOffset));
+    else if (lastMade && lastMade.isConnected) setCaretByOffset(lastMade, Infinity);
+
+    /* ⑥ 触发字数统计与自动保存（DOM 直改不会产生 input 事件） */
+    editor.dispatchEvent(new Event('input', { bubbles: true }));
+  }
 
   function placeCaretEnd() {
     const range = document.createRange();
@@ -255,6 +412,8 @@
         let on = false;
         try { on = document.queryCommandState(cmd); } catch (e) { }
         saveSt.textContent = cmdLabel[cmd] + (on ? '：已开启' : '：已关闭');
+      } else if (cmd === 'clear') {
+        saveSt.textContent = '格式已清除';
       }
     });
   });
