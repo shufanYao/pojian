@@ -765,4 +765,113 @@ And when this happens, and when we allow freedom to ring, when we let it ring fr
 万里漂泊，常年作客他乡，最是悲秋；一生多病，今日独自登上高台。历尽艰难，深恨两鬓白如霜雪；穷愁潦倒，新近又因病放下了浊酒杯。`,
     publishAt: "2026-09-30T20:00:00+08:00",
   },
+
+  {
+    id: "jfk-inaugural",
+    cat: "speeches",
+    title: "就职演说（节选）",
+    subtitle: "Inaugural Address",
+    author: "约翰·F·肯尼迪",
+    authorShort: "肯尼迪",
+    authorInitial: "K",
+    authorRole: "美国第35任总统 · 首位天主教徒总统 · 1917 — 1963",
+    era: "1961年1月20日 · 华盛顿特区 · 国会大厦东侧台阶",
+    excerpt: "不要问你的国家能为你做什么，而要问你能为你的国家做什么。",
+    authorIntro: [
+      "约翰·菲茨杰拉德·肯尼迪（1917—1963），美国第35任总统（1961—1963），民主党人。生于马萨诸塞州布鲁克莱恩的政商家族，1940年毕业于哈佛大学；二战期间在太平洋战场指挥 PT-109 鱼雷艇，因率艇员脱险获海军与海军陆战队勋章。",
+      "1946年当选联邦众议员，1952年当选联邦参议员；任内所著《Profiles in Courage》于1957年获普利策传记奖。1960年11月8日以极接近的票数击败共和党人尼克松，当选时43岁，是美国历史上最年轻的当选总统，也是首位天主教徒总统。1963年11月22日在得克萨斯州达拉斯遇刺身亡。",
+    ],
+    facts: [
+      ["生于", "1917年5月29日 · 马萨诸塞州布鲁克莱恩"],
+      ["任期", "第35任美国总统 1961—1963"],
+      ["辞世", "1963年11月22日 · 达拉斯遇刺"],
+    ],
+    background: [
+      { h: "雪停之后的台阶", p: "1961年1月20日凌晨，华盛顿降下大雪，地面积雪厚达八英寸，宾夕法尼亚大道要靠军方用火焰喷射器融雪清路。正午气温约22华氏度（约摄氏零下六度），肯尼迪未穿大衣，在国会大厦东侧台阶上宣誓就职，随后发表这篇演说。" },
+      { h: "一千三百余词的短稿", p: "肯尼迪自1960年11月当选后便开始构思，广泛征集友人、幕僚与顾问的建议，在黄色记事本上亲手反复增删。定稿仅一千三百余词，历时不足十四分钟，是历来篇幅最短的就职演说之一。" },
+      { h: "1961年1月的世界", p: "演说发表时冷战正处高峰：柏林前途未定，核军备与太空竞赛方兴未艾。肯尼迪一面重申对盟友与新生国家的承诺，一面以“让我们永远不要因恐惧而谈判，但也永远不要惧怕谈判”向对手递出谈判之意。一个多月后的3月1日，他签署行政命令建立和平队。本页选录演说开篇与结尾部分。" },
+    ],
+    caveat: [
+      "本篇的词数与时长，各类来源记载略有出入：有作 1364 词、13分59秒者，也有作 1366 词、不足14分钟者。本站采“一千三百余词”“不足十四分钟”的稳妥表述，未取某一个具体数字。",
+      "演说中最著名的那句“不要问你的国家能为你做什么”，其成句过程历来有不同说法：有人说它出自肯尼迪与撰稿人西奥多·索伦森的共同打磨，也有人指出这句的句式近似他中学时代校长的训词。本站只陈述可考事实——讲稿由肯尼迪本人反复删改定稿，未对名句的“原创归属”下断语。",
+      "英文原文首段“our forbears”的拼写照录自肯尼迪总统图书馆公布的讲稿文字（同篇第三段作“forebears”），未按现代拼写统一。",
+    ],
+    lang: "en",
+    type: "prose",
+    originalLabel: "英文原文（节选）",
+    translationLabel: "中文译文（节选）",
+    original: `Vice President Johnson, Mr. Speaker, Mr. Chief Justice, President Eisenhower, Vice President Nixon, President Truman, Reverend Clergy, fellow citizens:
+
+We observe today not a victory of party but a celebration of freedom — symbolizing an end as well as a beginning — signifying renewal as well as change. For I have sworn before you and Almighty God the same solemn oath our forbears prescribed nearly a century and three-quarters ago.
+
+The world is very different now. For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life. And yet the same revolutionary beliefs for which our forebears fought are still at issue around the globe — the belief that the rights of man come not from the generosity of the state but from the hand of God.
+
+We dare not forget today that we are the heirs of that first revolution. Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans — born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage — and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.
+
+Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.
+
+This much we pledge — and more.
+
+So let us begin anew — remembering on both sides that civility is not a sign of weakness, and sincerity is always subject to proof. Let us never negotiate out of fear. But let us never fear to negotiate.
+
+Let both sides explore what problems unite us instead of belaboring those problems which divide us.
+
+Let both sides, for the first time, formulate serious and precise proposals for the inspection and control of arms — and bring the absolute power to destroy other nations under the absolute control of all nations.
+
+Let both sides seek to invoke the wonders of science instead of its terrors. Together let us explore the stars, conquer the deserts, eradicate disease, tap the ocean depths and encourage the arts and commerce.
+
+All this will not be finished in the first one hundred days. Nor will it be finished in the first one thousand days, nor in the life of this Administration, nor even perhaps in our lifetime on this planet. But let us begin.
+
+In your hands, my fellow citizens, more than mine, will rest the final success or failure of our course. Since this country was founded, each generation of Americans has been summoned to give testimony to its national loyalty. The graves of young Americans who answered the call to service surround the globe.
+
+Now the trumpet summons us again — not as a call to bear arms, though arms we need — not as a call to battle, though embattled we are — but a call to bear the burden of a long twilight struggle, year in and year out, "rejoicing in hope, patient in tribulation" — a struggle against the common enemies of man: tyranny, poverty, disease and war itself.
+
+Can we forge against these enemies a grand and global alliance, North and South, East and West, that can assure a more fruitful life for all mankind? Will you join in that historic effort?
+
+In the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shrink from this responsibility — I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it — and the glow from that fire can truly light the world.
+
+And so, my fellow Americans: ask not what your country can do for you — ask what you can do for your country.
+
+My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man.
+
+Finally, whether you are citizens of America or citizens of the world, ask of us here the same high standards of strength and sacrifice which we ask of you. With a good conscience our only sure reward, with history the final judge of our deeds, let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.`,
+    signoff: ["Delivered at the East Portico of the United States Capitol,", "John F. Kennedy", "Washington, D.C. · January 20, 1961"],
+    translation: `约翰逊副总统、议长先生、首席大法官先生、艾森豪威尔总统、尼克松副总统、杜鲁门总统、各位神职人员、同胞们：
+
+我们今天所目睹的，不是一次政党的胜利，而是一场自由的庆典——它既象征着一个时代的终结，也象征着一个时代的开端；既意味着延续，也意味着变革。因为我已在你们和全能的上帝面前，宣读过我们先辈在近四分之三个世纪前所立下的同一庄严誓词。
+
+世界已经大不相同。因为人类手中握有的力量，既可以消除一切形式的贫穷，也可以毁灭一切形式的生命。然而，我们先辈为之奋斗的那些革命信念，至今仍在全球各地受到挑战——那就是：人的权利并非来自国家的恩赐，而是来自上帝之手的信念。
+
+我们不敢忘记，今天我们是那场最初革命的继承者。让这句话从此时此地传出，无论朋友还是敌人，都请听清：火炬已经传到新一代美国人的手中——他们出生在本世纪，经受过战争的锤炼，受过艰难而苦涩的和平的约束，以我们古老的遗产为荣——他们不愿坐视那些人权被缓慢侵蚀，也不容许它被断送；这个国家一向承诺捍卫这些人权，我们今天在国内和世界各地也依然如此承诺。
+
+让每一个国家都知道——无论它对我怀有善意还是恶意——我们愿付出任何代价，承担任何重担，应对任何艰难，支持任何朋友，反对任何敌人，以确保自由的存续与成功。
+
+这就是我们的承诺——而且远不止于此。
+
+那么，让我们重新开始——双方都要记住：讲求礼貌并不表示软弱，而诚意永远需要证明。让我们永远不要因恐惧而谈判，但也永远不要惧怕谈判。
+
+让双方共同探讨那些使我们团结的问题，而不是纠缠于那些使我们分裂的问题。
+
+让双方第一次认真而确切地提出关于武器核查与管制的方案，把毁灭他国的绝对力量，置于所有国家的绝对管控之下。
+
+让双方去调动科学的奇迹，而不是科学的恐怖。让我们一起探索群星，征服沙漠，消灭疾病，开发海洋深处，并鼓励艺术与商业。
+
+这一切不会在一百天内完成，也不会在一千天内完成，不会在本届政府的任期内完成，甚至也许不会在我们这一代人的有生之年完成。但是，让我们开始吧。
+
+同胞们，我们事业最终的成败，更多地掌握在你们手中，而不是我的手中。自这个国家诞生以来，每一代美国人都曾被召唤去证明自己对国家的忠诚。那些响应召唤的美国青年，他们的坟墓遍布全球。
+
+如今，号角又一次向我们吹响——不是号召我们拿起武器，尽管我们需要武器；不是号召我们奔赴战场，尽管我们已身陷重围——而是号召我们担起一场漫长而黯淡的斗争的重负，年复一年，“怀着希望而喜乐，在患难中忍耐”——一场对抗人类共同敌人的斗争：暴政、贫穷、疾病与战争本身。
+
+我们能结成这样一个宏大而全球性的联盟——横跨南北、纵贯东西——去对抗这些敌人，为全人类确保一种更加丰实的生活吗？你们愿意加入这一历史性的努力吗？
+
+在世界漫长的历史中，只有少数几代人被授予了这样一种使命：在自由面临最大危险的时刻捍卫自由。我不回避这一责任——我欢迎它。我不相信我们之中有谁愿意与任何别的民族、任何别的世代交换位置。我们为这一事业所倾注的精力、信念与忠诚，将照亮我们的国家以及所有为它服务的人——而那道火焰的光芒，确实能够照亮整个世界。
+
+因此，我的美国同胞们：不要问你的国家能为你做什么，而要问你能为你的国家做什么。
+
+我的世界公民们：不要问美国将为你做什么，而要问我们共同能为人类的自由做什么。
+
+最后，无论你们是美国的公民还是世界的公民，请用我们要求你们的同一高标准——力量与牺牲——来要求我们。唯有一颗清白的良心是我们可靠的报偿，历史是我们行为的最终裁判。让我们前行吧，去引领我们所热爱的这片土地，祈求祂的祝福与帮助，同时深知：在这片大地上，上帝的工作，必须真正由我们自己来完成。`,
+    signoffT: ["演讲于美国国会大厦东侧台阶，", "约翰·F·肯尼迪", "华盛顿特区 · 1961年1月20日"],
+    publishAt: "2026-10-02T20:00:00+08:00",
+  },
 ];
