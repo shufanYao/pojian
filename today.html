@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日手记 · 破茧</title>
+<meta name="description" content="破茧·今日手记——要处理、灵感、睡前复盘，把当下的心思记下来；数据只存本机浏览器，不上传。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="tj">
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+      <defs>
+        <linearGradient id="bw" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#35c4b5"/><stop offset="1" stop-color="#7cc7e8"/>
+        </linearGradient>
+      </defs>
+      <path d="M31 33C22 15 7 10 6.5 24 6.2 34 19 39 29 37.5Z" fill="url(#bw)"/>
+      <path d="M33 33C42 15 57 10 57.5 24 57.8 34 45 39 35 37.5Z" fill="url(#bw)"/>
+      <path d="M31.5 36C25 45 21.5 55 26.5 56.5 30 57.5 32 49 32 43Z" fill="url(#bw)" opacity=".85"/>
+      <path d="M32.5 36C39 45 42.5 55 37.5 56.5 34 57.5 32 49 32 43Z" fill="url(#bw)" opacity=".85"/>
+      <rect x="31.1" y="30" width="1.8" height="24" rx=".9" fill="#0b5e8c"/>
+      <path d="M31 30c-2-3-4-4-6-5M33 30c2-3 4-4 6-5" stroke="#0b5e8c" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="brand-name">破茧</span>
+    <span class="brand-slogan">读经典 · 写笔记 · 破茧成蝶</span>
+  </a>
+  <nav class="topnav">
+    <a href="index.html">首页</a>
+    <a href="index.html#speeches">名人讲稿</a>
+    <a href="index.html#classics">经典名篇</a>
+    <a href="index.html#poetry">中华诗词</a>
+    <a href="today.html" class="current">今日手记</a>
+  </nav>
+</header>
+
+<section class="tj-hero">
+  <div class="tj-hero-inner">
+    <div class="tj-date">
+      <span class="tj-day" id="tjDay">--</span>
+      <span class="tj-date-sub">
+        <span class="tj-mon" id="tjMon"></span>
+        <span class="tj-wk" id="tjWk"></span>
+      </span>
+    </div>
+    <div class="tj-stats">
+      <div class="tj-stat" id="tjOverBox"><b id="tjOver">0</b><span>逾期</span></div>
+      <div class="tj-stat" id="tjTodayBox"><b id="tjToday">0</b><span>今日到期</span></div>
+      <div class="tj-stat"><b id="tjOpen">0</b><span>未完待办</span></div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,48 C240,88 480,8 720,32 C960,56 1200,72 1440,36 L1440,90 L0,90 Z" fill="#f2f8fa"/>
+  </svg>
+</section>
+
+<main class="tj-main">
+
+  <div class="tj-grid">
+
+    <!-- ========== 要处理 ========== -->
+    <section class="tj-zone tj-todo">
+      <div class="cat-head">
+        <div class="cat-badge">记</div>
+        <h2>要处理</h2>
+        <div class="tj-head-r">
+          <span class="tj-count" id="focusCount"></span>
+          <button type="button" class="tj-btn" id="todoEditBtn" aria-expanded="false" aria-controls="todoEditor">编辑待办</button>
+        </div>
+      </div>
+      <p class="cat-desc">逾期、今天到期、两天内到期的事项会聚到这里，做完随手打钩。</p>
+      <div class="tj-panel">
+        <div class="tj-list" id="focusList"></div>
+        <div class="tj-editor" id="todoEditor">
+          <div class="tj-ed-head"><span>待办管理 · <span id="manageMeta"></span></span></div>
+          <div class="tj-hint">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
+            <span>「要处理」只显示逾期 / 今天到期 / 两天内到期的事项，其余留在这里备查。</span>
+          </div>
+          <div id="manageList"></div>
+          <div class="tj-add">
+            <input class="tj-input" id="todoInput" type="text" placeholder="添加一条待办，回车保存…">
+            <select class="tj-select" id="todoPri" aria-label="优先级">
+              <option value="P0">P0 紧急</option>
+              <option value="P1" selected>P1 重要</option>
+              <option value="P2">P2 普通</option>
+            </select>
+            <input class="tj-date" id="todoDate" type="date" aria-label="截止日期">
+            <button type="button" class="tj-btn pri" id="todoAddBtn">添加</button>
+          </div>
+          <textarea class="tj-ta" id="todoPaste" placeholder="或粘贴一份清单，每行一条；支持「P0 事项 | 2026-09-20」的写法…"></textarea>
+          <div class="tj-acts">
+            <button type="button" class="tj-btn" id="todoImportBtn">导入清单</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 灵感 ========== -->
+    <section class="tj-zone tj-idea">
+      <div class="cat-head">
+        <div class="cat-badge">灵</div>
+        <h2>灵感</h2>
+        <div class="tj-head-r">
+          <button type="button" class="tj-btn" id="ideaCopyBtn">复制今日</button>
+        </div>
+      </div>
+      <p class="cat-desc">读到一句好的、想到一个点子，先记下来再走。</p>
+      <div class="tj-panel">
+        <div class="tj-cblock">
+          <div class="tj-cap">
+            <textarea class="tj-cap-in" id="ideaInput" rows="1" placeholder="记一条灵感…"></textarea>
+            <button type="button" class="tj-btn pri" id="ideaAddBtn">记录</button>
+          </div>
+          <div id="ideaList"></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ========== 复盘 ========== -->
+  <section class="tj-zone tj-review">
+    <div class="cat-head">
+      <div class="cat-badge">省</div>
+      <h2>复盘</h2>
+      <div class="tj-head-r">
+        <button type="button" class="tj-btn" id="reviewCopyBtn">复制今日</button>
+      </div>
+    </div>
+    <p class="cat-desc">晚上花五分钟：今天做成了什么、卡在哪、明天先动哪一步；再记下三件值得的瞬间。</p>
+    <div class="tj-panel">
+      <div class="tj-review-grid">
+        <div class="tj-rcol">
+          <div class="tj-label">今日总结<span class="tj-label-note">完成 / 卡点 / 明日重点</span></div>
+          <div class="tj-cap">
+            <textarea class="tj-cap-in" id="reviewInput" rows="2" placeholder="今天完成了……卡在……明天先做……"></textarea>
+            <button type="button" class="tj-btn pri" id="reviewAddBtn">保存</button>
+          </div>
+          <div id="reviewList"></div>
+        </div>
+        <div class="tj-rcol sand">
+          <div class="tj-label">三件积极的事<span class="tj-label-note">今天值得记下的瞬间</span></div>
+          <div class="tj-pos-add">
+            <div class="tj-pos-ins">
+              <div class="tj-pos-row"><span class="tj-pnum">1</span><input class="tj-pos-in" id="posIn1" type="text" placeholder="第一件…"></div>
+              <div class="tj-pos-row"><span class="tj-pnum">2</span><input class="tj-pos-in" id="posIn2" type="text" placeholder="第二件…"></div>
+              <div class="tj-pos-row"><span class="tj-pnum">3</span><input class="tj-pos-in" id="posIn3" type="text" placeholder="第三件…"></div>
+            </div>
+            <button type="button" class="tj-btn pri" id="posAddBtn">记下</button>
+          </div>
+          <div id="posList"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <p>破茧 · 今日手记 ｜ 要处理、灵感、复盘三格本子</p>
+  <p class="foot-note">待办 / 灵感 / 复盘都只保存在你这台设备的浏览器里（localStorage），不上传、不同步，清空浏览器数据会一并清掉。</p>
+</footer>
+
+<div class="tj-toast" id="tjToast" role="status" aria-live="polite"></div>
+
+<script src="js/today.js"></script>
+</body>
+</html>
