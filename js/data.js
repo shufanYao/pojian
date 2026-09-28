@@ -978,4 +978,57 @@ Finally, whether you are citizens of America or citizens of the world, ask of us
 怎么才能得到千万间宽敞的大屋，遮护天下所有贫寒之人，让他们都露出欢颜，风吹雨打也安稳如山！唉！什么时候眼前能突然出现这样高大的房屋？到那时，就算只破了我这一间茅屋、让我受冻而死，我也心甘情愿！`,
     publishAt: "2026-10-07T20:00:00+08:00",
   },
+
+  {
+    id: "blood-toil-tears-sweat",
+    cat: "speeches",
+    title: "热血、辛劳、眼泪和汗水",
+    subtitle: "Blood, Toil, Tears and Sweat",
+    author: "温斯顿·丘吉尔",
+    authorShort: "丘吉尔",
+    authorInitial: "C",
+    authorRole: "英国战时首相 · 政治家与演说家 · 1874 — 1965",
+    era: "1940年5月13日 · 伦敦 · 威斯敏斯特宫下议院",
+    excerpt: "他向下院交出的第一份报告，只有血、辛劳、眼泪和汗水。",
+    authorIntro: [
+      "温斯顿·伦纳德·斯宾塞·丘吉尔（1874—1965），英国政治家、演说家、作家。生于牛津郡的布莱尼姆宫，出身马尔博罗公爵家族。1900年以保守党人身份当选下院议员，此后六十余年间辗转于保守党与自由党之间，历任内政大臣、海军大臣、财政大臣等要职。",
+      "两次世界大战之间，他因力主维持帝国旧制、并长期警告纳粹德国的威胁而一度孤立于主流之外。1939年第二次世界大战爆发当天，他重回海军部。1940年5月10日受命组建战时联合政府，以其演说凝聚民心，成为英国抗战的象征。1953年因历史与传记著作获诺贝尔文学奖，1965年1月24日在伦敦去世，享国葬礼。",
+    ],
+    facts: [
+      ["生于", "1874年11月30日 · 牛津郡布莱尼姆宫"],
+      ["任期", "1940—1945 · 1951—1955 两任首相"],
+      ["辞世", "1965年1月24日 · 伦敦"],
+    ],
+    background: [
+      { h: "五天之内换了首相", p: "1940年5月10日，德军同时侵入荷兰、比利时与卢森堡，西线全面打响。同一天，因挪威战事失利而在议会备受抨击的张伯伦辞去首相，国王乔治六世随即召请丘吉尔组阁，他当日便就任首相。" },
+      { h: "上任后的第一场演说", p: "5月13日下午2时54分，丘吉尔以首相身份第一次向下院讲话。他先交代组阁的进展，再说清眼前的处境，最后把话说到了底——除了血、辛劳、眼泪和汗水，他无物可献。" },
+      { h: "381票赞成，无人反对", p: "当日的信任动议以381票赞成、无人反对获得通过。此后数周，比利时投降，英军自敦刻尔克撤回本土，法国停战——这篇演说因此被视为那个夏天的开端。" },
+    ],
+    caveat: [
+      "本篇依英国议会官方辩论记录（Hansard，下院第360卷，1940年5月13日，第1501—1525栏）译出，译文为本站自行译出。",
+      "这场演说没有正式篇名。《热血、辛劳、眼泪和汗水》是后人依演说中最著名的那句话所起的通称。",
+      "表决结果的官方记录写作 Ayes, 381; Noes, o.，反对栏另记 NOES. NIL.，即381票赞成、无人反对；本站表述从官方记录。",
+    ],
+    lang: "en",
+    type: "prose",
+    originalLabel: "英文原文",
+    translationLabel: "中文译文",
+    original: `On Friday evening last I received His Majesty's Commission to form a new Administration. It was the evident wish and will of Parliament and the nation that this should be conceived on the broadest possible basis and that it should include all parties, both those who supported the late Government and also the parties of the Opposition. I have completed the most important part of this task. A War Cabinet has been formed of five Members, representing, with the Opposition Liberals, the unity of the nation. The three party Leaders have agreed to serve, either in the War Cabinet or in high executive office. The three Fighting Services have been filled. It was necessary that this should be done in one single day, on account of the extreme urgency and rigour of events. A number of other positions, key positions, were filled yesterday, and I am submitting a further list to His Majesty to-night. I hope to complete the appointment of the principal Ministers during to-morrow. The appointment of the other Ministers usually takes a little longer, but I trust that, when Parliament meets again, this part of my task will be completed, and that the administration will be complete in all respects.
+
+I considered it in the public interest to suggest that the House should be summoned to meet to-day. Mr. Speaker agreed, and took the necessary steps, in accordance with the powers conferred upon him by the Resolution of the House. At the end of the proceedings to-day, the Adjournment of the House will be proposed until Tuesday, 21st May, with, of course, provision for earlier meeting, if need be. The business to be considered during that week will be notified to Members at the earliest opportunity. I now invite the House, by the Motion which stands in my name, to record its approval of the steps taken and to declare its confidence in the new Government.
+
+To form an Administration of this scale and complexity is a serious undertaking in itself, but it must be remembered that we are in the preliminary stage of one of the greatest battles in history, that we are in action at many other points in Norway and in Holland, that we have to be prepared in the Mediterranean, that the air battle is continuous and that many preparations, such as have been indicated by my hon. Friend below the Gangway, have to be made here at home. In this crisis I hope I may be pardoned if I do not address the House at any length to-day. I hope that any of my friends and colleagues, or former colleagues, who are affected by the political reconstruction, will make allowance, all allowance, for any lack of ceremony with which it has been necessary to act. I would say to the House, as I said to those who have joined this Government: "I have nothing to offer but blood, toil, tears and sweat."
+
+We have before us an ordeal of the most grievous kind. We have before us many, many long months of struggle and of suffering. You ask, what is our policy? I will say: It is to wage war, by sea, land and air, with all our might and with all the strength that God can give us; to wage war against a monstrous tyranny never surpassed in the dark, lamentable catalogue of human crime. That is our policy. You ask, what is our aim? I can answer in one word: It is victory, victory at all costs, victory in spite of all terror, victory, however long and hard the road may be; for without victory, there is no survival. Let that be realised; no survival for the British Empire, no survival for all that the British Empire has stood for, no survival for the urge and impulse of the ages, that mankind will move forward towards its goal. But I take up my task with buoyancy and hope. I feel sure that our cause will not be suffered to fail among men. At this time I feel entitled to claim the aid of all, and I say, "Come then, let us go forward together with our united strength."`,
+    signoff: ["Delivered in the House of Commons,", "Winston Churchill", "London · May 13, 1940"],
+    translation: `上周五傍晚，我接到了国王陛下的委命，筹建新一届政府。议会与全国上下的意愿十分明确：新政府应建立在尽可能广泛的基础之上，把各党派都容纳进来——既包括支持上届政府的人，也包括反对党的各党。这一任务中最重要的一部分，我已经完成。由五人组成的战时内阁已经成立；它与反对派自由党人一道，象征着全国的团结。三位政党领袖都已同意效力，或加入战时内阁，或担任高级行政职务。陆、海、空三个军种的主政人选都已确定。由于事态的极端急迫与严峻，这些必须在一天之内办妥。昨天又有若干职位——都是关键职位——得到确定；今晚我将向国王陛下呈递又一份名单。各主要大臣的任命，我希望能在明天完成。其余大臣的任命通常要多费些时日；但我相信，待议会再次集会之时，我这部分工作当已完成，整个政府也将在各方面组建齐备。
+
+我认为，建议本院于今日召集开会，是符合公众利益的。议长表示同意，并依本院决议授予他的权力，采取了必要的步骤。今日议程结束时，将提议本院休会至5月21日星期二；当然，如有必要，也可提前复会。那一周将要审议的事项，会尽早通知各位议员。现在，我请本院就我名下提出的这项动议进行表决，以记录下诸位对已采取步骤的认可，并宣告对新政府的信任。
+
+组建一个如此规模、如此繁复的政府，本身就是一件艰巨的事；但必须记住：我们正处在历史上最伟大战役之一的初始阶段，我们在挪威、在荷兰等许多地方都在交战，我们必须对地中海有所准备，空战从未间断，而在本土也有许多准备工作要做——正如过道另一侧一位尊敬的议员所指出的。值此危局，若我今日不向本院作长篇陈述，还望诸位见谅。我也希望，因这次政治重组而受到影响的各位朋友、同僚与旧日同僚，对我为形势所迫而不得不简率行事之处，予以充分体谅。我要对本院说，正如我对那些参加本政府的人说过的那样：“我所能奉献的，只有血、辛劳、眼泪和汗水。”
+
+摆在我们面前的，是一场最严酷的考验。摆在我们面前的，是许多、许多个月漫长的斗争与苦难。你们问：我们的政策是什么？我要说：那就是以我们全部的国力，以上帝所能赐予我们的一切力量，在海上、陆上与空中作战；就是向一桩穷凶极恶的暴政开战——在人类罪行那黑暗而可悲的清单上，还从未有过比它更甚者。这就是我们的政策。你们问：我们的目标是什么？我可以用一个词回答：胜利——不惜一切代价去夺取胜利，不顾一切恐怖去夺取胜利，无论道路多么漫长、多么艰难，也要夺取胜利；因为不胜利，就没有生存。请认清这一点：没有生存，大英帝国就没有生存，大英帝国所代表的一切就没有生存，历代相传的那股冲动——人类终将朝自己的目标前进——也就没有生存。然而，我是怀着振奋与希望担起这一任务的。我深信，我们的事业不会在人世间归于失败。此时此刻，我感到自己有资格请求所有人的支援，并且要说：“来吧，让我们同心协力，一道前进。”`,
+    signoffT: ["演讲于英国下议院，", "温斯顿·丘吉尔", "伦敦 · 1940年5月13日"],
+    publishAt: "2026-10-09T20:00:00+08:00",
+  },
 ];
