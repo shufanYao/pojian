@@ -1143,4 +1143,64 @@ We have before us an ordeal of the most grievous kind. We have before us many, m
 芦苇繁茂鲜明，露水还没有干透。我所思念的那个人，就在那河岸的水边。逆流而上去追寻，道路迂回又曲折；顺流而下去追寻，仿佛就在水中的沙洲。`,
     publishAt: "2026-10-14T20:00:00+08:00",
   },
+
+  {
+    id: "tryst-with-destiny",
+    cat: "speeches",
+    title: "命运之约",
+    subtitle: "A Tryst with Destiny",
+    author: "贾瓦哈拉尔·尼赫鲁",
+    authorShort: "尼赫鲁",
+    authorInitial: "N",
+    authorRole: "印度首任总理 · 1889 — 1964",
+    era: "1947年8月14日午夜 · 新德里 · 制宪会议",
+    excerpt: "当午夜的钟声敲响，世人尚在沉睡，印度将苏醒。",
+    authorIntro: [
+      "贾瓦哈拉尔·尼赫鲁（1889—1964），印度独立运动的主要领导人、印度共和国首任总理。他出身于阿拉哈巴德的律师世家，少年赴英国求学，先后就读于哈罗公学与剑桥大学三一学院，并在伦敦内殿律师学院取得律师资格。1912年回国后投身民族运动，逐渐成为甘地最信任的年轻一代领袖。",
+      "1947年8月15日印度独立，他出任首任总理，并兼任外交部长，直到1964年5月27日逝世，前后将近十七年，是印度现代国家制度的主要奠基者，也是不结盟运动的倡导者之一。著有《尼赫鲁自传》《印度的发现》等。这篇演说是他在独立前夜的制宪会议上发表的，被视为二十世纪最著名的演说之一。",
+    ],
+    facts: [
+      ["生于", "1889年11月14日 · 英属印度阿拉哈巴德"],
+      ["任职", "印度首任总理 · 1947 — 1964"],
+      ["发表", "1947年8月14日午夜 · 新德里制宪会议"],
+    ],
+    background: [
+      { h: "十一点开始的午夜会议", p: "1947年8月14日晚11时，印度制宪会议第五次会议在新德里宪法厅开幕——议程本就排到午夜之后，因为印度将在那一刻成为独立国家。会议由主席拉金德拉·普拉萨德主持，开幕时先由苏切塔·克里帕拉尼领唱《梵德·马塔兰》。" },
+      { h: "分治阴影下的欢呼", p: "独立到来的同时，印度次大陆正陷入分治的流血之中。尼赫鲁当晚在会上的另一段发言（以印度斯坦语讲）说得直白：不要以为举国都在欢庆——他心里有足够的悲伤，因为离德里不远，几座大城市正在燃烧。这篇演说因此既是欢呼，也是一份沉甸甸的提醒。" },
+      { h: "他指的是甘地", p: "演说中「我们这一代最伟大的人」一句，一般被认为指的是甘地。甘地当晚没有出席庆典：他留在加尔各答绝食一日，奔走于印度教徒与穆斯林之间，试图平息教派仇杀。他只在演说中被隔空致意。" },
+    ],
+    caveat: [
+      "本篇为节选：所录为尼赫鲁当晚以英语宣读的演说部分。按官方记录，其前尚有以印度斯坦语所作的一段发言（他说「我现在用英语宣读这项决议」之后才开始英语部分），其后紧接的是他提出的正式决议与誓词（I beg to move, Sir …），均未计入正文。",
+      "底本为印度人民院秘书处印行的《印度制宪会议辩论记录》（Constituent Assembly Debates, Official Report, Vol. V）1947年8月14日条。坊间流传的《与命运有约》常把当晚或次日的其他段落并入本篇，如「The appointed day has come…」「A new star rises, the star of freedom in the East…」「We rejoice in that freedom…」以及致甘地的一段（「On this day our first thoughts go to the architect of this freedom…」）等；这些文字不见于上述官方记录的英语演说部分，本站不取，以免版本混杂。",
+      "文字差异：官方记录作「the grandeur of her successes and her failures」（successes 为复数），部分流传版本作 her success and her failures；「One World」两词皆首字母大写，系原文如此。本站一律依官方记录。",
+      "时间表述：会议于8月14日23时开始，演说在午夜前发表，印度独立于8月15日正式生效。故有的来源把本篇系于8月14日，有的系于8月15日，本站取「8月14日午夜」。",
+    ],
+    lang: "en",
+    type: "prose",
+    originalLabel: "英文原文（节选）",
+    translationLabel: "中文译文",
+    original: `Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially. At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom. A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance. It is fitting that at this solemn moment we take the pledge of dedication to the service of India and her people and to the still larger cause of humanity.
+
+At the dawn of history India started on her unending quest, and trackless centuries are filled with her striving and the grandeur of her successes and her failures. Through good and ill fortune alike she has never lost sight of that quest or forgotten the ideals which gave her strength. We end today a period of ill fortune and India discovers herself again. The achievement we celebrate today is but a step, an opening of opportunity, to the greater triumphs and achievements that await us. Are we brave enough and wise enough to grasp this opportunity and accept the challenge of the future?
+
+Freedom and power bring responsibility. That responsibility rests upon this Assembly, a sovereign body representing the sovereign people of India. Before the birth of freedom we have endured all the pains of labour and our hearts are heavy with the memory of this sorrow. Some of those pains continue even now. Nevertheless the past is over and it is the future that beckons to us now.
+
+That future is not one of ease or resting but of incessant striving so that we might fulfil the pledges we have so often taken and the one we shall take today. The service of India means the service of the millions who suffer. It means the ending of poverty and ignorance and disease and inequality of opportunity. The ambition of the greatest man of our generation has been to wipe every tear from every eye. That may be beyond us but as long as there are tears and suffering, so long our work will not be over.
+
+And so we have to labour and to work and work hard to give reality to our dreams. Those dreams are for India, but they are also for the world, for all the nations and peoples are too closely knit together today for any one of them to imagine that it can live apart. Peace has been said to be indivisible, so is freedom, so is prosperity now, and so also is disaster in this One World that can no longer be split into isolated fragments.
+
+To the people of India, whose representatives we are, we make appeal to join us with faith and confidence in this great adventure. This is no time for petty and destructive criticism, no time for ill-will or blaming others. We have to build the noble mansion of free India where all her children may dwell.`,
+    translation: `很久以前，我们与命运立下约定；如今，践约的时刻到了——不是全部兑现，也不是十足地兑现，但已是极其重大的兑现。当午夜的钟声敲响，世人尚在沉睡，印度将苏醒，迎来生命与自由。历史上难得有这样的时刻：我们走出旧世界、踏入新世界，一个时代就此终结，一个被压抑已久的民族的灵魂终于得以发声。在这样的庄严时刻，我们理应立下誓言，献身于印度、献身于她的人民，也献身于人类更宏大的事业。
+
+在历史的黎明，印度便开始了她无尽的求索；此后那些无迹可循的漫长世纪里，写满了她的奋斗，也写满了她成功的辉煌与失败的沉重。无论顺境还是逆境，她从未忘却这一求索，也从未忘记那些曾给予她力量的理想。今天，我们终结了一段厄运的岁月，印度重新发现了自己。我们今天所庆祝的成就，不过是向前迈出的一步，是机会的开端——更大的胜利与成就还在前方等着我们。我们是否足够勇敢、足够明智，去抓住这个机会，去迎接未来的挑战？
+
+自由与权力带来责任。这份责任，落在这个制宪会议肩上——它是一个主权机构，代表着主权在民的印度人民。在自由诞生之前，我们历尽了分娩的阵痛，心头沉甸甸地压着悲伤的记忆；有些痛楚至今仍在延续。然而，过去已经过去，如今召唤我们的是未来。
+
+那个未来不是安逸，也不是歇息，而是持续不断的奋斗，好让我们兑现屡次许下的誓言，以及今天即将立下的这一誓言。为印度服务，就是为千百万受苦受难的人服务；就是终结贫穷、愚昧、疾病，以及机会的不平等。我们这一代最伟大的人，其抱负正是擦干每一双眼睛里的泪水。这或许超出了我们的能力；但只要世上还有泪水、还有苦难，我们的工作就永远不会结束。
+
+因此，我们必须劳作，必须工作，而且必须辛勤地工作，才能让梦想成为现实。那些梦想属于印度，也属于整个世界——因为今天各国与各民族如此紧密地相连，没有哪一个能够想象自己可以孤立地生存。人们说，和平不可分割；自由如此，如今的繁荣如此，而在这再也无法割裂为孤立场片的同一个世界里，灾难同样如此。
+
+对印度人民——我们是你们的代表——我们呼吁你们怀着信念与信心，加入这场伟大的冒险。现在不是做琐碎而破坏性批评的时候，不是心怀恶意、相互指责的时候。我们要建起自由印度那座宏伟的大厦，让她所有的儿女都能在其中安居。`,
+    publishAt: "2026-10-16T20:00:00+08:00",
+  },
 ];
