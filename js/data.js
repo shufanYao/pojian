@@ -1307,4 +1307,58 @@ To the people of India, whose representatives we are, we make appeal to join us 
     translation: `枯干的藤蔓缠绕着老树，树上栖着黄昏归巢的乌鸦。小桥横架，流水潺潺，近旁有几户人家。荒凉的古道上，萧瑟西风里，一匹瘦马载着旅人缓缓前行。夕阳徐徐西沉，愁肠寸断的游子，仍漂泊在天涯。`,
     publishAt: "2026-10-21T20:00:00+08:00",
   },
+
+  {
+    id: "angostura-speech",
+    cat: "speeches",
+    title: "安戈斯图拉演说（节选）",
+    subtitle: "Discurso de Angostura",
+    author: "西蒙·玻利瓦尔",
+    authorShort: "玻利瓦尔",
+    authorInitial: "B",
+    authorRole: "拉丁美洲独立运动领袖 · 1783 — 1830",
+    era: "1819年2月15日 · 委内瑞拉·安戈斯图拉（今玻利瓦尔城）",
+    excerpt: "我们既不是欧洲人，也不是印第安人。",
+    authorIntro: [
+      "西蒙·玻利瓦尔（1783—1830），委内瑞拉加拉加斯人，拉丁美洲独立运动最著名的军事统帅与政治家。他出身土生白人贵族，幼年失怙，少年赴欧洲求学，1807年回国投身独立事业，此后二十余年转战南美北部，先后解放今委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁、玻利维亚等地，被尊为「解放者」（El Libertador）。",
+      "1819年2月15日，第二届委内瑞拉国民议会在奥里诺科河畔的安戈斯图拉开幕，玻利瓦尔在会上发表这篇演说：他交还议会授予的最高权力，同时提交一份宪法草案，主张以中央集权取代联邦制、废除奴隶制，并另设执掌教育与风纪的「道德权」。同年8月博亚卡战役大捷，12月17日议会通过《大哥伦比亚共和国根本法》，委内瑞拉、新格拉纳达与基多合为一国，玻利瓦尔当选总统。",
+    ],
+    facts: [
+      ["生于", "1783年7月24日 · 委内瑞拉加拉加斯"],
+      ["称号", "「解放者」 · 1813年加拉加斯市政会授予"],
+      ["辞世", "1830年12月17日 · 哥伦比亚圣玛尔塔"],
+    ],
+    background: [
+      { h: "从流亡到奥里诺科河", p: "1814年第二共和国覆灭后，玻利瓦尔两度流亡，一度避居牙买加、海地。1816年在海地方面的支援下重返委内瑞拉，1817年7月攻克奥里诺科河上的要冲安戈斯图拉，把这座内地小城经营成新的根据地。" },
+      { h: "在战火中开国会", p: "1819年2月15日，国民议会在临时首都安戈斯图拉开幕，独立战争仍在进行，委内瑞拉尚未全境光复。玻利瓦尔在开幕当天发表这篇演说；三天后的2月18日，议会选举他为共和国总统，确立其在政治、军事与外交上的合法领导地位。" },
+      { h: "一篇演说与一个国家", p: "演说中的方案并未被照单全收：议会否定了「道德权」，把参议院改为终身制，总统定为四年一任。但同年8月7日博亚卡战役大捷，12月17日议会通过《根本法》，大哥伦比亚共和国宣告诞生，玻利瓦尔出任总统——演说中那个「既非欧洲人、亦非印第安人」的新民族，自此有了名字。" },
+    ],
+    caveat: [
+      "本篇为节选。全篇甚长，本站仅取其中两大段：一由「当美洲挣脱西班牙君主国的统治」至「最为奇特，也最为复杂」，论美洲人的身世与处境；二由「美洲人民被套上无知、暴政与恶习的三重枷锁」至「自由地呼吸纯净的以太」，论无知、暴政与恶习之下的自由。两段之间省略了自 Todavía hay más 至 …en cuanto era relativo a la ciencia del gobierno 的一段（论殖民地行政与「绝对政体」），节略处以「……」标示。",
+      "底本与拼写：西班牙语原文据 1819 年初刊本（该演说 1819 年 2 月至 3 月分期刊出于安戈斯图拉的《奥里诺科邮报》Correo del Orinoco）之现代整理本。初刊本用旧式拼写（baxo、exercicio、freqüentemente、á），本站依现代正字法转写为 bajo、ejercicio、frecuentemente、a；标点亦从现代整理本，而各家整理本在标点上互有出入。",
+      "译文为本站自译，自西班牙文直接译出，未参照任何已出版中译本，亦未取英译本转译。",
+      "文中引卢梭语，出《论波兰政府》（Considérations sur le gouvernement de Pologne，1772 年前后写成，作者身后 1782 年始刊行）；卢梭原文意为「自由是一种入口虽易、消化却难的食物」，玻利瓦尔此处转述，措辞与法文原文已略有出入。篇名与译名：本篇通行简称《安戈斯图拉演说》，中国社会科学院拉丁美洲研究所《拉丁美洲历史词典》作《在安戈斯图拉国民大会上的演说》，并把该次会议称为「安戈斯图拉国民大会」；人名、地名与「道德权」「联邦制」「大哥伦比亚共和国」等译名，从该词典相关条目的通行译法。",
+    ],
+    lang: "es",
+    type: "prose",
+    originalLabel: "西班牙语原文（节选）",
+    translationLabel: "中文译文",
+    original: `Al desprenderse la América de la Monarquía Española, se ha encontrado semejante al Imperio Romano, cuando aquella enorme masa cayó dispersa en medio del antiguo mundo. Cada desmembración formó entonces una nación independiente conforme a su situación o a sus intereses; pero con la diferencia de que aquellos miembros volvían a restablecer sus primeras asociaciones. Nosotros ni aun conservamos los vestigios de lo que fue en otro tiempo: no somos europeos, no somos indios, sino una especie media entre los aborígenes y los españoles. Americanos por nacimiento y europeos por derechos, nos hallamos en el conflicto de disputar a los naturales los títulos de posesión, y de mantenernos en el país que nos vio nacer contra la oposición de los invasores; así, nuestro caso es el más extraordinario y complicado.
+
+……
+
+Uncido el pueblo americano al triple yugo de la ignorancia, de la tiranía y del vicio, no hemos podido adquirir ni saber, ni poder, ni virtud. Discípulos de tan perniciosos maestros, las lecciones que hemos recibido y los ejemplos que hemos estudiado son los más destructores. Por el engaño se nos ha dominado más que por la fuerza, y por el vicio se nos ha degradado más bien que por la superstición. La esclavitud es la hija de las tinieblas; un pueblo ignorante es un instrumento ciego de su propia destrucción; la ambición, la intriga, abusan de la credulidad y de la inexperiencia de hombres ajenos de todo conocimiento político, económico o civil: adoptan como realidades las que son puras ilusiones; toman la licencia por la libertad, la traición por el patriotismo, la venganza por la justicia. Semejante a un robusto ciego que, instigado por el sentimiento de sus fuerzas, marcha con la seguridad del hombre más perspicaz, y dando en todos los escollos no puede rectificar sus pasos.
+
+Un pueblo pervertido si alcanza su libertad, muy pronto vuelve a perderla; porque en vano se esforzarán en mostrarle que la felicidad consiste en la práctica de la virtud; que el imperio de las leyes es más poderoso que el de los tiranos, porque son más inflexibles, y todo debe someterse a su benéfico rigor; que las buenas costumbres y no la fuerza son las columnas de las leyes; que el ejercicio de la justicia es el ejercicio de la libertad. Así, legisladores, vuestra empresa es tanto más ímproba cuanto que tenéis que constituir a hombres pervertidos por las ilusiones del error, y por incentivos nocivos. La libertad, dice Rousseau, es un alimento suculento, pero de difícil digestión. Nuestros débiles conciudadanos tendrán que enrobustecer su espíritu mucho antes que logren digerir el saludable nutritivo de la libertad. Entumidos sus miembros por las cadenas, debilitada su vista en las sombras de las mazmorras, y aniquilados por las pestilencias serviles, ¿serán capaces de marchar con pasos firmes hacia el augusto templo de la libertad? ¿Serán capaces de admirar de cerca sus espléndidos rayos y respirar sin opresión el éter puro que allí reina?`,
+    signoff: ["Discurso pronunciado ante el Congreso General de Venezuela,", "Simón Bolívar", "Angostura · 15 de febrero de 1819"],
+    translation: `当美洲挣脱西班牙君主国的统治，它发现自己像当年的罗马帝国——那庞大的躯体崩解，散落在旧世界之中。此后每一块分离出来的部分，都依照自身的位置或利益成为一个独立的国家；不同之处在于，罗马帝国那些肢体后来又重建了它们最初的联合。而我们，连昔日之我的痕迹都未能保留：我们既不是欧洲人，也不是印第安人，而是介乎原住民与西班牙人之间的一种中间物。我们生为美洲人，却享有欧洲人的权利，于是陷于这样的冲突之中：既要向原住民争夺占有的名分，又要顶着入侵者的反对，守住我们出生的土地。我们的处境，因此最为奇特，也最为复杂。
+
+……
+
+美洲人民被套上无知、暴政与恶习的三重枷锁，既未能获得知识，也未能获得力量，也未能获得德行。师从如此有害的教师，我们所得的教训、所学的榜样，都是最具毁灭性的。我们被欺瞒甚于被武力所制，被恶习败坏甚于被迷信所困。奴役是黑暗之女；一个无知的民族，是自我毁灭的盲目工具；野心与阴谋，利用那些于政治、经济、公民之识一无所知者的轻信与无经验：把纯粹的幻象当成现实，把放纵当成自由，把背叛当成爱国，把复仇当成正义。这就像一个强壮的盲人，因感觉到自身的力量，便像眼力最明的人那样大步前行，却处处碰壁，无法校正自己的脚步。
+
+一个堕落的民族，纵然获得了自由，也很快就再度失去；因为人们再怎么向它说明——幸福在于践行德行；法律的统治比暴君的统治更有力量，因为法律更为刚硬，一切都须服从它有益的严厉；良风美俗而非强力，才是法律的支柱；行使正义就是行使自由——都是徒劳。因此，立法者们，你们的任务愈发艰难：你们要为之立法的，正是被谬误的幻象和有害的诱因败坏了的人。自由，如卢梭所言，是一种滋养丰盛却难以消化的食物。我们孱弱的同胞，必须先大大强健自己的精神，才消化得了自由这有益的营养。他们的肢体被锁链箍得僵硬，目光在地牢的阴影中变得衰弱，又被奴役的瘟疫摧折殆尽——他们可还能迈着坚定的步伐，走向自由的庄严殿堂？可还能近观它灿烂的光芒，在那里自由地呼吸纯净的以太？`,
+    signoffT: ["演讲于委内瑞拉国民议会，", "西蒙·玻利瓦尔", "安戈斯图拉 · 1819年2月15日"],
+    publishAt: "2026-10-23T20:00:00+08:00",
+  },
 ];
