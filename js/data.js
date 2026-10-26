@@ -1627,4 +1627,60 @@ Un pueblo pervertido si alcanza su libertad, muy pronto vuelve a perderla; porqu
 满地的黄花堆积着，我却已憔悴到这般地步，如今还有谁来采摘？守在窗儿跟前，独自一人怎么才能挨到天黑！梧桐树上又落起细雨，到黄昏时分，一点一点、一滴一滴。这般光景，哪里是一个“愁”字说得尽的！`,
     publishAt: "2026-11-04T20:00:00+08:00",
   },
+
+  {
+    id: "in-catilinam-prima",
+    cat: "speeches",
+    title: "反喀提林第一篇演说（节选）",
+    subtitle: "In Catilinam I",
+    author: "马库斯·图利乌斯·西塞罗",
+    authorShort: "西塞罗",
+    authorInitial: "C",
+    authorRole: "古罗马政治家、演说家 · 前106 — 前43",
+    era: "公元前63年11月8日 · 罗马·朱庇特·斯塔托神庙",
+    excerpt: "「喀提林，你到底还要滥用我们的耐心到几时？」",
+    authorIntro: [
+      "马库斯·图利乌斯·西塞罗（前106—前43），古罗马政治家、演说家、哲学家。生于拉丁姆的阿尔皮努姆（今意大利阿尔皮诺）一个骑士家庭，是家族中第一个坐到执政官位子上的「新人」。早年习法律与修辞，历任财务官、大法官。",
+      "前63年任执政官，任内镇压喀提林阴谋，却因未经审判处死罗马公民而遭攻讦，前58年被放逐，次年被召回。前43年，后三头同盟成立，他被列入公敌名单，同年12月7日在福尔米亚一带被杀。其演说辞与哲学著作被后世奉为拉丁散文的典范。",
+    ],
+    facts: [
+      ["生于", "前106年1月3日 · 意大利阿尔皮努姆"],
+      ["执政官", "前63年 · 罗马共和国"],
+      ["辞世", "前43年12月7日 · 福尔米亚"],
+    ],
+    background: [
+      { h: "苏拉之后的罗马", p: "内战与政变之后，失地农民、负债贵族与苏拉的旧部在意大利积成一股怨气。喀提林出身没落的贵族世家，两度竞选执政官落败，债台高筑，便把这些人聚拢起来，图谋以武力夺取政权。" },
+      { h: "十一月的那场会", p: "前63年10月下旬，元老院通过紧急决议，命执政官「务使国家不受损害」。11月6日夜，阴谋者在罗马秘密集会，议定拂晓前行刺西塞罗；次日清晨刺客登门，西塞罗闭门不出，事遂败。11月8日，西塞罗把元老院召到朱庇特·斯塔托神庙，先布防，后开会；喀提林照常赴会，满座无人与他同席。" },
+      { h: "演说之后的四个月", p: "会后喀提林离城，赴伊特鲁里亚与曼利乌斯的队伍会合。12月初，阿洛布罗吉斯使节的告发与书信落到西塞罗手里，元老院于12月5日议决处死留在城内的五名同谋，当夜在狱中绞决。次年1月，喀提林在皮斯托里亚战败身死。而「未经审判处死公民」这一条，五年后把西塞罗送出了罗马。" },
+    ],
+    caveat: [
+      "本篇演说的时间，通行作公元前63年11月8日；剑桥版《反喀提林演说》笺注作「11月8日，或可能为11月7日」，学界于此未有定论，本篇取8日。",
+      "今本非现场速记。西塞罗事后把演说整理成文并刊行，一般系于前60年前后——其时他正因处死阴谋者而受攻讦；当场所说的与今本所见，未必字字相同。本篇所据为这一传世定本。",
+      "本篇为节选。全篇共三十三节，此处只取开篇第1、2节与末节第33节，中间以「……」标示。删去的部分是西塞罗对喀提林私德、党羽与罗马旧例的铺陈，删节只为篇幅。",
+      "拉丁文以通行校本文字为准：第1、2节与 The Latin Library 电子本、Project Gutenberg《Cicero's Orations》拉丁文本逐字相合；第33节另对十九世纪学校用校勘本，唯末节首句彼本作「Tum tu, Iuppiter」，本篇从「Tu, Iuppiter」。「isdem」一作「iisdem」，「arcebis」之后旧本作冒号，皆因本而异。底本保留旧式拼写：voltus（通行作 vultus）、hostis（宾格复数，通行作 hostes）。末节「a tuis aris」「civium omnium」二处，校勘本原以方括号标示为后人所补，本篇径补，不加括号。",
+      "朱庇特·斯塔托神庙（aedes Iovis Statoris）在罗马城中的位置，古今考订不一，本篇只记神庙之名，不指实地望。",
+      "译名：喀提林（Lucius Sergius Catilina），一译「卡提林纳」，本篇统一作「喀提林」。神名「朱庇特·斯塔托」为 Iuppiter Stator 的音译，Stator 意为「使之立定者」。本篇篇名通行汉译另有《反喀提林》《斥喀提林》《对喀提林的第一篇控告辞》等。",
+      "西塞罗遇害的地点，各书或作福尔米亚（Formiae），或作近旁的加埃塔（Caieta）；意大利 Treccani 百科作「在他的福尔米亚别墅附近被杀」，本篇取福尔米亚。",
+      "译文为本站自译，自拉丁文直接译出，未参照任何已出版中译本。",
+    ],
+    lang: "la",
+    type: "prose",
+    originalLabel: "拉丁文原文（节选）",
+    translationLabel: "中文译文",
+    original: `Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris?
+
+O tempora, o mores! Senatus haec intellegit. Consul videt; hic tamen vivit. Vivit? immo vero etiam in senatum venit, fit publici consilii particeps, notat et designat oculis ad caedem unum quemque nostrum. Nos autem fortes viri satis facere rei publicae videmur, si istius furorem ac tela vitemus. Ad mortem te, Catilina, duci iussu consulis iam pridem oportebat, in te conferri pestem, quam tu in nos omnes iam diu machinaris.
+
+……
+
+Hisce ominibus, Catilina, cum summa rei publicae salute, cum tua peste ac pernicie cumque eorum exitio, qui se tecum omni scelere parricidioque iunxerunt, proficiscere ad impium bellum ac nefarium. Tu, Iuppiter, qui isdem quibus haec urbs auspiciis a Romulo es constitutus, quem Statorem huius urbis atque imperii vere nominamus, hunc et huius socios a tuis aris ceterisque templis, a tectis urbis ac moenibus, a vita fortunisque civium omnium arcebis et homines bonorum inimicos, hostis patriae, latrones Italiae scelerum foedere inter se ac nefaria societate coniunctos aeternis suppliciis vivos mortuosque mactabis.`,
+    translation: `喀提林，你到底还要滥用我们的耐心到几时？你这份狂妄还要嘲弄我们多久？你那毫无约束的胆大妄为，还要横冲直撞到哪一步才算完？帕拉蒂尼山上的夜间戍卫、全城的巡哨、民众的惊惧、所有忠良之士的聚集、这处防备最严的元老院会场、在座诸位的脸色与目光——竟没有一样让你动容吗？你的谋划已经败露，你难道察觉不到？你的阴谋已被在座所有人握在手里，绳索已经收紧，你难道看不见？昨夜、前夜你做了什么，去了哪里，召了哪些人来，定了什么打算——你以为我们当中有人不知道吗？
+
+啊，什么样的时代，什么样的风气！元老院洞悉此事，执政官亲眼看见，可这个人还活着。活着？不止——他还走进元老院，参与国家大计，用眼睛把我们一个一个点出来、标出来，留待杀戮。而我们这些「勇士」，仿佛只要躲开他那股疯狂和刀锋，就算对国家尽了本分。喀提林，凭执政官一道命令，早就该把你押赴死地；早就该把你久已在我们所有人身上谋划的那场祸害，落回到你自己头上。
+
+……
+
+带着这些兆头上路吧，喀提林——愿共和国因此得保安泰，愿你自身败亡，愿那班以种种罪行与弑亲之罪与你结盟的人一并覆灭——去投入那场亵渎神明、伤天害理的战争。而你，朱庇特，你是罗慕路斯在与此城相同的征兆下立起的，我们称你为这座城邦与这个治权的「止者」，名副其实：把此人和他的同伙，从你的祭坛与其余神庙、从城中的屋宇与城墙、从全体公民的生命与家业之间，尽数挡在外面；至于这些与善人为敌的人、国家的公敌、意大利的强盗——他们以罪行的盟约和邪恶的勾结彼此联结——无论生前死后，都请你以永恒的惩罚加以殛灭。`,
+    publishAt: "2026-11-06T20:00:00+08:00",
+  },
 ];
