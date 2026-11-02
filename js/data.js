@@ -1784,4 +1784,55 @@ Hisce ominibus, Catilina, cum summa rei publicae salute, cum tua peste ac pernic
 这里面自有一番真意，想要分辨清楚，却已经忘了怎样说。`,
     publishAt: "2026-11-11T20:00:00+08:00",
   },
+
+  {
+    id: "wissenschaft-als-beruf",
+    cat: "speeches",
+    title: "以学术为业（节选）",
+    subtitle: "Wissenschaft als Beruf",
+    author: "马克斯·韦伯",
+    authorShort: "韦伯",
+    authorInitial: "W",
+    authorRole: "德国社会学家 · 1864 — 1920",
+    era: "1917年11月7日 · 慕尼黑·施泰尼克艺术厅",
+    excerpt: "祛魅之后，学术凭什么值得托付一生。",
+    authorIntro: [
+      "马克斯·韦伯，1864 年生于德国埃尔福特，父亲是律师出身的国民自由党议员，家中常有学者与自由派政治人物往来。他在海德堡、柏林等地研习法律，1889 年以中世纪商业公司史的论文获博士学位。",
+      "1894 年起任弗赖堡大学国民经济学教授，1897 年转海德堡，1903 年因病辞去教职，此后十余年以私人学者身份写作，《新教伦理与资本主义精神》即成于这一时期。1917 年 11 月他在慕尼黑作本篇讲演，1919 年受聘慕尼黑大学，次年去世。他与马克思、涂尔干并称为现代社会科学的奠基者。",
+    ],
+    facts: [
+      ["生于", "1864年4月21日 · 埃尔福特"],
+      ["教职", "弗赖堡 1894 · 海德堡 1897—1903 · 慕尼黑 1919"],
+      ["辞世", "1920年6月14日 · 慕尼黑"],
+    ],
+    background: [
+      { h: "十月革命那一天", p: "1917 年 11 月 7 日晚，韦伯在慕尼黑的施泰尼克艺术厅讲演。同一天，彼得格勒爆发了十月革命。台下坐的多是即将走向职业生涯的学生。" },
+      { h: "讲职业的人没有职业", p: "韦伯 1903 年因精神疾病辞去海德堡大学教授席，此后十余年不领国家薪俸，靠妻子继承的遗产生活。他讲「以学术为业」时，自己正是那个没有教职的人。" },
+      { h: "速记稿与定本", p: "讲演由速记记录，1919 年由慕尼黑与莱比锡的 Duncker & Humblot 出版社刊行，韦伯本人对记录作了大幅改写。今天通行的文本是那个定本，并非当晚说出的话。" },
+    ],
+    caveat: [
+      "德语 Beruf 兼指「职业」与「受召而承当的志业」，中译题名有《以学术为业》《学术作为一种志业》等，本站题名取前者。",
+      "讲演地点是书商施泰尼克（C. G. Steinicke）在慕尼黑的讲堂，一称「艺术厅」，一称「书店报告厅」；部分转述作「在慕尼黑大学讲演」，当属误传。",
+      "现场讲演由速记记录，1919 年出版前经韦伯本人大幅改写增补，两个文本并不等同。本站原文依 1919 年初版（Duncker & Humblot，慕尼黑与莱比锡），中段以「……」标示删略。",
+    ],
+    lang: "de",
+    type: "prose",
+    originalLabel: "德文原文（节选）",
+    translationLabel: "中文译文",
+    original: `Ich soll nach Ihrem Wunsch über „Wissenschaft als Beruf“ sprechen. Nun ist es eine gewisse Pedanterie von uns Nationalökonomen, an der ich festhalten möchte: daß wir stets von den äußeren Verhältnissen ausgehen, hier also von der Frage: Wie gestaltet sich Wissenschaft als Beruf im materiellen Sinne des Wortes? Das bedeutet aber praktisch heute im wesentlichen: Wie gestaltet sich die Lage eines absolvierten Studenten, der entschlossen ist, der Wissenschaft innerhalb des akademischen Lebens sich berufsmäßig hinzugeben? Um zu verstehen, worin da die Besonderheit unserer deutschen Verhältnisse besteht, ist es zweckmäßig, vergleichend zu verfahren und sich zu vergegenwärtigen, wie es im Auslande dort aussieht, wo in dieser Hinsicht der schärfste Gegensatz gegen uns besteht: in den Vereinigten Staaten.
+
+Bei uns – das weiß jeder – beginnt normalerweise die Laufbahn eines jungen Mannes, der sich der Wissenschaft als Beruf hingibt, als „Privatdozent“. Er habilitiert sich nach Rücksprache und mit Zustimmung des betreffenden Fachvertreters, auf Grund eines Buches und eines meist mehr formellen Examens vor der Fakultät, an einer Universität und hält nun, unbesoldet, entgolten nur durch das Kolleggeld der Studenten, Vorlesungen, deren Gegenstand er innerhalb seiner venia legendi selbst bestimmt. In Amerika beginnt die Laufbahn normalerweise ganz anders, nämlich durch Anstellung als „assistant“. In ähnlicher Art etwa, wie das bei uns an den großen Instituten der naturwissenschaftlichen und medizinischen Fakultäten vor sich zu gehen pflegt, wo die förmliche Habilitation als Privatdozent nur von einem Bruchteil der Assistenten und oft erst spät erstrebt wird. Der Gegensatz bedeutet praktisch: daß bei uns die Laufbahn eines Mannes der Wissenschaft im ganzen auf plutokratischen Voraussetzungen aufgebaut ist. Denn es ist außerordentlich gewagt für einen jungen Gelehrten, der keinerlei Vermögen hat, überhaupt den Bedingungen der akademischen Laufbahn sich auszusetzen. Er muß es mindestens eine Anzahl Jahre aushalten können, ohne irgendwie zu wissen, ob er nachher die Chancen hat, einzurücken in eine Stellung, die für den Unterhalt ausreicht.
+
+……
+
+Es ist das Schicksal unserer Zeit, mit der ihr eigenen Rationalisierung und Intellektualisierung, vor allem: Entzauberung der Welt, daß gerade die letzten und sublimsten Werte zurückgetreten sind aus der Öffentlichkeit, entweder in das hinterweltliche Reich mystischen Lebens oder in die Brüderlichkeit unmittelbarer Beziehungen der einzelnen zueinander. Es ist weder zufällig, daß unsere höchste Kunst eine intime und keine monumentale ist, noch daß heute nur innerhalb der kleinsten Gemeinschaftskreise, von Mensch zu Mensch, im pianissimo, jenes Etwas pulsiert, das dem entspricht, was früher als prophetisches Pneuma in stürmischem Feuer durch die großen Gemeinden ging und sie zusammenschweißte. Versuchen wir, monumentale Kunstgesinnung zu erzwingen und zu „erfinden“, dann entsteht ein so jämmerliches Mißgebilde wie in den vielen Denkmälern der letzten 20 Jahre. Versucht man religiöse Neubildungen zu ergrübeln ohne neue, echte Prophetie, so entsteht im innerlichen Sinn etwas Ähnliches, was noch übler wirken muß. Und die Kathederprophetie wird vollends nur fanatische Sekten, aber nie eine echte Gemeinschaft schaffen. Wer dies Schicksal der Zeit nicht männlich ertragen kann, dem muß man sagen: Er kehre lieber, schweigend, ohne die übliche öffentliche Renegatenreklame, sondern schlicht und einfach, in die weit und erbarmend geöffneten Arme der alten Kirchen zurück. Sie machen es ihm ja nicht schwer. Irgendwie hat er dabei – das ist unvermeidlich – das „Opfer des Intellektes“ zu bringen, so oder so. Wir werden ihn darum nicht schelten, wenn er es wirklich vermag. Denn ein solches Opfer des Intellekts zugunsten einer bedingungslosen religiösen Hingabe ist sittlich immerhin doch etwas anderes als jene Umgehung der schlichten intellektuellen Rechtschaffenheitspflicht, die eintritt, wenn man sich selbst nicht klar zu werden den Mut hat über die eigene letzte Stellungnahme, sondern diese Pflicht durch schwächliche Relativierung sich erleichtert. Und mir steht sie auch höher als jene Kathederprophetie, die sich darüber nicht klar ist, daß innerhalb der Räume des Hörsaals nun einmal keine andere Tugend gilt als eben: schlichte intellektuelle Rechtschaffenheit. Sie aber gebietet uns, festzustellen, daß heute für alle jene vielen, die auf neue Propheten und Heilande harren, die Lage die gleiche ist, wie sie aus jenem schönen, unter die Jesaja-Orakel aufgenommenen edomitischen Wächterlied in der Exilszeit klingt: „Es kommt ein Ruf aus Seir in Edom: Wächter, wie lang noch die Nacht? Der Wächter spricht: Es kommt der Morgen, aber noch ist es Nacht. Wenn ihr fragen wollt, kommt ein ander Mal wieder.“ Das Volk, dem das gesagt wurde, hat gefragt und geharrt durch weit mehr als zwei Jahrtausende, und wir kennen sein erschütterndes Schicksal. Daraus wollen wir die Lehre ziehen: daß es mit dem Sehnen und Harren allein nicht getan ist, und es anders machen: an unsere Arbeit gehen und der „Forderung des Tages“ gerecht werden – menschlich sowohl wie beruflich. Die aber ist schlicht und einfach, wenn jeder den Dämon findet und ihm gehorcht, der seines Lebens Fäden hält.`,
+    translation: `遵照诸位的愿望，我要讲的是「以学术为业」。我们国民经济学学者有一种迂腐的习气，我想守着它：总是从外部条件讲起——在这里就是从这个问题讲起：学术作为一种职业，在字面的物质意义上，究竟是什么样子？而在今天，这实际上主要意味着：一个已经毕业的学生，若决心在大学生活之内以学术为职业，他的处境如何？要弄清我们德国的情况特殊在哪里，最好用比较的办法，先看清国外是什么样子，尤其是在这一点上与我们反差最尖锐的美国。
+
+在我们这里——人人都知道——一个把自己交付给学术、以之为业的年轻人，其生涯照例从「编外讲师」开始。他先与相关专业的代表接洽并取得其同意，凭一部著作、通常还要在学部面前通过一场多半只是形式的考试，在某所大学取得授课资格；此后他开课，不领薪俸，报酬只有学生的听课费，讲什么，在授课许可（venia legendi）的范围内由他自己定。在美国，这条生涯通常以完全不同的方式开始：受聘为「助教」。情形大致类似于我们这里自然科学与医学各大学部的大研究所：在那里，正式的编外讲师资格只有一小部分助教去争取，而且往往很晚才动手。这一对比的实际含义是：在我们这里，一个以学术为业者的生涯，整体上建立在财阀式的前提之上。因为对一个毫无财产的年轻学者来说，把自己交给学术生涯的种种条件，是极其冒险的事。他至少得撑住若干年，而完全无从知道自己事后是否有机会谋到一个足以糊口的职位。
+
+……
+
+我们的时代有其自身的理性化与理知化，尤其是：世界的祛魅；这个时代的命运是：那些最后的、最崇高的价值已从公共领域退场，或退入神秘生活的彼岸世界，或退入个体与个体之间直接关系的兄弟情谊。我们最高的艺术是亲密的，而不是纪念碑式的；今天，那种东西只在最狭小的共同体圈子里、人与人之间、以最弱的音量（pianissimo）搏动着——它对应的正是从前作为先知式的灵气，以暴风般的火穿过大的会众、把他们熔铸为一体的力量。这两样都不是偶然。倘若我们硬要强求并「发明」一种纪念碑式的艺术意向，造出来的就只能是过去二十年里那些纪念像一样可悲的怪胎。倘若没有新的、真正的先知，却苦思冥想地造出宗教上的新东西，那么在内在的意义上会产生某种类似之物，其效果只会更糟。而讲坛预言更是只能造出狂热的宗派，永远造不出真正的共同体。谁若不能硬气地承受时代的这一命运，那就只好对他说：不如回去吧——不出声地，不必搞那套公开的背教者宣传，只是朴素地回到旧教会那敞开而悲悯的怀抱里去。教会本来也不为难他。这样做，他总得——这是免不了的——献出「智性的牺牲」，无论以哪种方式。倘若他真能做到，我们不会因此责备他。因为为了无条件的宗教献身而作出的这种智性牺牲，在伦理上毕竟不同于另一种行径：没有勇气把自己最终的立场弄清楚，却靠软弱的相对化把那项义务减轻——即回避朴素的智性诚实之义务。而在我眼里，它也高于那种讲坛预言——后者不明白：在讲堂之内，从来只有一种德性有效，那就是朴素的智性诚实。而它要求我们认定：今天，对所有那些等候新先知与新救主的人，处境与那首优美的、被收进以赛亚神谕的以东守望者之歌在流亡年代所唱的一样：「有呼声从西珥传来，从以东：守望的啊，黑夜还有多长？守望者说：早晨来了，但夜还在。你们若要问，改日再来。」那番话所说的民族，问了、等了远不止两千年，它那令人震恸的命运，我们是知道的。我们要从这里汲取教训：光靠渴慕与等待是不够的，得换一种做法——去干我们的工作，去应付「当日的需求」，在做人上如此，在职业上也是如此。而这需求朴素又简单：只要每个人都找到那个执掌他生命之线的命运之神，并且服从他。`,
+    publishAt: "2026-11-13T20:00:00+08:00",
+  },
 ];
