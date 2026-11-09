@@ -1941,4 +1941,53 @@ Es ist das Schicksal unserer Zeit, mit der ihr eigenen Rationalisierung und Inte
 了结君王一统天下的大事，博得生前身后的名声——可惜，白发已经生出来了。`,
     publishAt: "2026-11-18T20:00:00+08:00",
   },
+
+  {
+    id: "tilbury-speech",
+    cat: "speeches",
+    title: "蒂尔伯里演说",
+    subtitle: "Speech to the Troops at Tilbury",
+    author: "伊丽莎白一世",
+    authorShort: "伊丽莎白一世",
+    authorInitial: "E",
+    authorRole: "英格兰女王 · 1533 — 1603",
+    era: "1588年8月9日（英格兰旧历）· 埃塞克斯郡蒂尔伯里",
+    excerpt: "我虽只有弱女子的身躯，却有一颗英格兰国王的心。",
+    authorIntro: [
+      "伊丽莎白一世（1533 — 1603），亨利八世与第二个王后安妮·博林的女儿，1533 年 9 月 7 日生于格林尼治。两岁多时，母亲以叛国罪被斩于伦敦塔；此后二十余年，她的身分屡经起伏，罗马天主教一方一向视她为私生女。1554 年怀亚特叛乱之后，她被异母姊玛丽一世下狱，一度押往伦敦塔。她通晓五门语言，受过当时最好的古典教育。",
+      "1558 年 11 月异母姊玛丽一世去世，她即位，在位四十五年。任内确立国教会（1563 年《三十九条信纲》），1588 年挫败西班牙无敌舰队，晚年以「荣光女王」「童贞女王」的形象为臣民所爱。1603 年 3 月 24 日卒于里士满宫，无嗣，都铎王朝随之终结，苏格兰王詹姆斯六世入继为詹姆斯一世。",
+    ],
+    facts: [
+      ["在位", "1558 — 1603 · 都铎王朝末代君主"],
+      ["演说", "1588年8月9日（旧历）· 蒂尔伯里营地"],
+      ["文本", "大英图书馆 Harley 6798 · 一张八开纸"],
+    ],
+    background: [
+      { h: "泰晤士河口的军营", p: "1588 年夏，西班牙无敌舰队约一百三十艘船驶入英吉利海峡，意在推翻伊丽莎白，以征服重建天主教。英格兰把陆军集结在泰晤士河口，营地设在韦斯特蒂尔伯里村外的高地上，由女王宠信的莱斯特伯爵罗伯特·达德利统率，官衔是「女王陆军与连队的副帅兼上将」。" },
+      { h: "阿尔登府那一夜", p: "8 月 7 日，女王到河边的西蒂尔伯里碉堡登岸，莱斯特在彼迎候。当夜她宿于附近的阿尔登府，随后回营检阅。据莱斯特事后致什鲁斯伯里伯爵的信，女王「把善良臣民的心烧得那样热，我想他们中间最弱的一个，也抵得住最骄横的西班牙人」。" },
+      { h: "四周之后的死讯", p: "检阅之后，营地随即解散。莱斯特伯爵于同年 9 月 4 日在牛津郡的康伯里园猝死，年五十六——距他在蒂尔伯里侍立女王马侧不过四周。女王闻讯，闭门数日不出。" },
+    ],
+    caveat: [
+      "这篇演说没有现场速记。现存最早的本子，是大英图书馆 Harley 6798 第 18 件、第 87 叶上的一张八开纸，学界定为十六世纪末至十七世纪初的抄本；此外尚有 1612 年威廉·利（William Leigh）在布道集《Quene Elizabeth, Paraleld in Her Princely Vertues》中的复述（措辞与此迥异），以及 1623 年莱昂内尔·夏普（Leonel Sharp）致白金汉公爵信中所录的一本（1654 年刊于《Cabala》）。1992 年 Susan Frye 曾据此疑演说为后世建构；2000 年芝加哥版《伊丽莎白一世文集》则以此抄本判定演说确曾发表、文本接近原貌。本站正文从 Harley 抄本，参校该文集第 325 — 326 页。",
+      "两系文字有异。1654 年刊本一系作「We have been persuaded … careful of our safety」「think foul scorn that Parma or Spain, or any prince of Europe」「I myself will take up arms」「even in the dust」，与抄本不同；中文世界流传最广的「我虽有弱女子的身体，却有国王的心与胆」，即出此刊本一系。本站正文从抄本，异文并记于此。",
+      "抄本拼写一仍其旧，未出校改：harts 即 hearts；in my steed 之 steed 当读作 stead，谓「代替」；my god 作小写。方括号内为编者所补之字，正文与译文均以〔〕标出。抄本原为一整段，本站按文意分为三段，文字未改。",
+      "日期有异说。英格兰遗产署蒂尔伯里堡史页记女王 8 月 7 日登岸、宿阿尔登府，「次日」回营演说；Historic Royal Palaces 与《伊丽莎白一世文集》则系于 8 月 9 日。本站取 9 日。当时英格兰行旧历，旧历 8 月 9 日即公历 8 月 19 日。",
+      "「白袍银甲、骑白马」的形象，本站不采。现存最早记载只说女王乘马巡行各营；披甲之说盛于十七世纪的戏剧与版画，Susan Frye《The Myth of Elizabeth at Tilbury》（1992）即指此为后人建构。",
+    ],
+    lang: "en",
+    type: "prose",
+    originalLabel: "Speech to the Troops at Tilbury",
+    translationLabel: "中文译文",
+    original: `My loving people: I have been persuaded by some, that are careful of my safety, to take heed how I committed my self to armed multitudes for fear of treachery. But I tell you, that I would not desire to live to distrust my faithful and loving people. Let tyrants fear. I have so behaved my self, that under god I have placed my chiefest strength and safeguard in the loyal harts and goodwill of my subjects. Wherefore I am come among you at this time, [not] for my recreation and pleasure, [but] being resolved in the midst and heat of the battle to live and die amongst you all, to lay down for my god, and for my kingdom and for my people mine honor and my blood run in the dust.
+
+I know I have the body but of a weak and feeble woman, but I have the heart and stomach of a king, and of a king of England too, and take foul scorn that Parma or any prince of Europe should dare to invade the borders of my realm. To the which rather than any dishonor shall grow by me, I myself will venture my blood, myself will be your general, judge and rewarder of your virtue in the field.
+
+I know that already for your forwardness you have deserved rewards and crowns and I assure you in the word of a prince you shall not fail of them. In the mean time my Lieutenant General [the Earl of Leicester] shall be in my steed, than whom never prince commanded a more noble or worthy subject. Not doubting but by your concord in the camp and valor in the field and your obedience to my self and my general, we shall shortly have a famous victory over this enemy of my god and of my kingdom.`,
+    translation: `我亲爱的子民：有人替我安危着想，劝我要提防，不要把自己交托给武装的众人，怕有背信之事。可我要告诉你们：我绝不愿活着去猜疑我忠实的、亲爱的子民。让暴君去害怕罢。我一向的作为，是在上帝之下，把我最大的力量与保障，放在臣民忠顺的心与善意里。所以此刻我来到你们中间，〔不是〕为游乐消遣，〔而是〕决心置身战阵之中、鏖战最烈之处，与你们同生同死；为我的上帝、我的王国、我的人民，把我的尊荣与热血，洒落在尘土里。
+
+我知道我所有的，只是一个柔弱无力的女子的身体；但我有一颗国王的心，一颗英格兰国王的心。帕尔马也好，欧洲哪一个君主也好，胆敢犯我疆界，我视之为奇耻。宁可我自己流血，也不肯让我蒙受羞辱——我要亲自做你们的将军，做你们的裁判者，在战场上酬答你们的勇武。
+
+我知道，以你们的奋勇，酬赏与荣衔你们早已挣得；我以君主之言向你们担保，你们一件也不会落空。眼下，我的副将〔莱斯特伯爵〕将代我在此；从来不曾有哪位君主，统辖过比他更高贵、更可托付的臣子。我不怀疑：只要你们营中和睦、阵上奋勇、听我与将军的号令，我们不久便会大胜这上帝之敌、我王国之敌。`,
+    publishAt: "2026-11-20T20:00:00+08:00",
+  },
 ];
